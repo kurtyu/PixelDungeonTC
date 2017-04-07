@@ -1,0 +1,2828 @@
+# THIS FILE MUST BE UTF8 WITHOUT BOM
+
+
+# GameScene
+
+Play
+開始遊戲
+Rankings
+排行榜
+Badges
+勳章
+About
+關於
+Game Over
+遊戲結束
+
+Donate
+贊助
+
+# Intro
+Many heroes of all kinds ventured into the Dungeon before you. Some of them have returned with treasures and magical artifacts, most have never been heard of since. But none have succeeded in retrieving the Amulet of Yendor, which is told to be hidden in the depths of the Dungeon.\n\nYou consider yourself ready for the challenge, but most importantly, you feel that fortune smiles on you. It's time to start your own adventure!
+在你來這裡之前曾有各路英雄嘗試前往地牢冒險。有些人滿載寶藏和魔法物品而歸，絕大多數的人從此音訊全無。但是從來沒有一人能取回傳聞中藏在地牢極深處的尼德羅護符。\n\n你認為自己已經準備好迎接挑戰，但更重要的是，你感覺幸運正眷顧著你。是時候出發開始屬於自己的冒險了！
+
+To unlock "Challenges", win the game with any character class.
+要解鎖"挑戰模式"，必須先使用任意角色通關一次。
+
+WARRIOR
+戰士
+Warrior
+戰士
+Warriors start with 11 points of Strength.
+戰士起始擁有11點力量。
+Warriors start with a unique short sword. This sword can be later "reforged" to upgrade another melee weapon.
+戰士起始擁有一把獨特的短劍。這把短劍稍後能夠進行"重鑄"用於升級其他近戰武器。
+Warriors are less proficient with missile weapons.
+戰士不是很擅長投擲武器。
+Any piece of food restores some health when eaten.
+吃下食物能夠恢復5點生命值。
+Potions of Strength are identified from the beginning.
+起始時力量藥水就已經被鑒定過了。
+GLADIATOR
+角鬥士
+Gladiator
+角鬥士
+A successful attack with a melee weapon allows the _Gladiator_ to start a combo, in which every next successful hit inflicts more damage.
+使用近戰武器成功命中目標能夠讓_角鬥士_進入連擊模式，每進行一次成功連擊都能造成額外傷害。
+BERSERKER
+狂戰士
+Berserker
+狂戰士
+When severely wounded, the _Berserker_ enters a state of wild fury significantly increasing his damage output.
+當承受一定程度的傷害後，_狂戰士_會進入狂暴狀態，大幅提升傷害輸出能力。
+
+MAGE
+法師
+Mage
+法師
+Mages start with a unique Wand of Magic Missile. This wand can be later "disenchanted" to upgrade another wand.
+法師起始帶有一把獨特的魔彈魔杖。這把魔杖稍後能夠進行"祛魔"用於升級其他魔杖。
+Mages recharge their wands faster.
+法師的魔杖充能更加迅速。
+When eaten, any piece of food restores 1 charge for all wands in the inventory.
+吃下食物時背包裡的魔杖都會恢復一點充能。
+Mages can use wands as a melee weapon.
+法師能夠使用魔杖作為近戰武器。
+Scrolls of Identify are identified from the beginning.
+起始時鑒定卷軸就已經鑒定過了。
+WARLOCK
+術士
+Warlock
+術士
+After killing an enemy the _Warlock_ consumes its soul. It heals his wounds and satisfies his hunger.
+_術士_會將他殺死的敵人的魂魄收走用於治療與果腹。
+BATTLEMAGE
+戰法師
+Battlemage
+戰法師
+When fighting with a wand in his hands, the _Battlemage_ inflicts additional damage depending on the current number of charges. Every successful hit restores 1 charge to this wand.
+手持魔杖戰鬥時，_戰法師_能夠造成和魔杖充能點數相關的額外傷害。每次命中敵人都能為魔杖恢復一點充能。
+
+ROGUE
+遊俠
+Rogue
+遊俠
+Rogues start with a Ring of Shadows+1.
+遊俠起始帶有暗影之戒+1。
+Rogues identify a type of a ring on equipping it.
+遊俠裝備上之戒就能馬上鑒定出它。
+Rogues are proficient with light armor, dodging better while wearing one.
+遊俠更適合穿戴輕甲，這能夠提升他的閃避率。
+Rogues are proficient in detecting hidden doors and traps.
+遊俠擅長偵測隱藏的門和陷阱。
+Rogues can go without food longer.
+遊俠不吃東西的情況下能夠撐得更久。
+Scrolls of Magic Mapping are identified from the beginning.
+起始時魔法地圖卷軸就已經鑒定過了。
+ASSASSIN
+刺客
+Assassin
+刺客
+When performing a surprise attack, the _Assassin_ inflicts additional damage to his target.
+_刺客_進行突襲時能夠對目標造成額外傷害。
+FREERUNNER
+疾行客
+Freerunner
+疾行客
+The _Freerunner_ can move almost twice faster, than most of the monsters. When he is running, the Freerunner is much harder to hit. For that he must be unencumbered and not starving.
+_疾行客_移動速度差不多有大多數怪物的兩倍快。他奔跑起來腳步如飛，敵人很難命中。但餓肚子或者負重的時候就無法發揮這種優勢了。
+
+HUNTRESS
+女獵
+Huntress
+女獵
+Huntresses start with 15 points of Health.
+女獵起始生命只有15點。
+Huntresses start with a unique upgradeable boomerang.
+女獵起始擁有一支獨特的可升級的回旋鏢。
+Huntresses are proficient with missile weapons and get damage bonus for excessive strength when using them.
+女獵擅長使用投擲武器，在充滿力量時使用投擲武器能夠造成額外傷害。
+Huntresses gain more health from dewdrops.
+女獵能夠通過露珠恢復更多生命。
+Huntresses sense neighbouring monsters even if they are hidden behind obstacles.
+女獵能夠偵測附近的怪物，即使它們藏在牆後。
+
+SNIPER
+狙擊手
+Sniper
+狙擊手
+_Snipers_ are able to detect weak points in an enemy's armor, effectively ignoring it when using a missile weapon.
+狙擊手能夠偵測出敵人護甲的弱點，在使用投擲武器時無視護甲高效得進行攻擊。
+
+WARDEN
+守望者
+Warden
+守望者
+Having a strong connection with forces of nature gives _Wardens_ an ability to gather dewdrops and seeds from plants. Also trampling a high grass grants them a temporary armor buff.
+與大自然強烈的聯繫賦予了守望者從草木中收集露珠和種子的能力。同時行走在草叢上時還會獲得臨時的防護效果。
+New Game
+開始新遊戲
+Load Game
+載入遊戲
+Exit Game
+離開遊戲
+Depth: %d, level: %d
+等級%2$d，第%1$d層
+Erase current game
+覆蓋現有存檔
+Top Rankings
+排行榜
+
+Do you really want to start new game?
+你真的想要重開新遊戲嗎？
+Your current game progress will be erased.
+你當前的遊戲進度將被覆蓋。
+Yes, start new game
+是的，開始新遊戲
+No, return to main menu
+不，返回主選單
+To unlock this character class, slay the 3rd boss with any other class
+解鎖該職業需要使用任意其他職業殺死第三層的BOSS
+
+
+
+Total games played: %d
+進行遊戲次數： %d
+No games have been played yet.
+尚無任何遊戲記錄。
+No additional information
+無額外資訊
+
+Your Badges
+你的勳章
+
+broken %s :%d
+毀損 %s：%d
+
+%s :%d
+%s ：%d
+
+a %s
+%s
+
+an %s
+%s
+
+a%s
+%s
+
+%s, %s
+%s，%s
+
+# GameScene
+
+Welcome to the level %d of Pixel Dungeon!
+歡迎來到像素地牢的第%d層！
+Welcome back to the level %d of Pixel Dungeon!
+歡迎回到像素地牢的第%d層！
+Be cautious, since the dungeon is even more dangerous at night!
+當心，夜晚時的地牢會更加危險！
+Your steps echo across the dungeon.
+地牢裡回蕩著你的腳步聲。
+You hear the water splashing around you.
+你聽見附近有水流滴濺的聲音。
+The smell of vegetation is thick in the air.
+空氣中有淡淡的草木氣息。
+The atmosphere hints that this floor hides many secrets.
+這種氛圍暗示著這一層地牢藏著許多秘密。
+
+#ConfusionGas
+A cloud of confusion gas is swirling here.
+一團不明的氣體環繞此地。
+
+#Fire
+A fire is raging here.
+這裡烈火肆虐。
+
+#Foliage
+Shafts of light pierce the gloom of the underground garden.
+光柱穿透幽暗的地下花園。
+
+#ParalyticGas
+A cloud of paralytic gas is swirling here.
+一團使人麻痺的氣體環繞此地。
+
+#Sacrificial
+Your sacrifice is worthy...
+你的犧牲是值得的...
+
+Your sacrifice is unworthy...
+你的犧牲是不值得的...
+
+Your sacrifice is worthy and so you are!
+看得出來你的犧牲是值得的!
+
+Sacrificial fire burns here. Every creature touched by this fire is marked as an offering for the spirits of the dungeon.
+犧牲的火在這裡燃燒。只要被火吻過的生物都會成為地牢幽靈的供品。
+
+Marked for sacrifice
+犧牲的象徵
+
+#ToxicGas
+A greenish cloud of toxic gas is swirling here.
+一團綠色毒氣環繞此地。
+
+You died from a toxic gas..
+你死在毒氣中...
+
+#WaterOfAwareness
+As you take a sip, you feel the knowledge pours into your mind. Now you know everything about your equipped items. Also you sense all items on the level and know all its secrets.
+小啜一口便有醍醐灌頂之感，現在你已經通曉了關於你穿戴裝備的一切之知識。此外你也感覺到這一層中所有物品的所在，並洞察了它們全部的秘密.
+
+Power of knowledge radiates from the water of this well. Take a sip from it to reveal all secrets of equipped items.
+井水中蕩漾著知識的魔力。從中小啜一口就能揭曉你所穿戴裝備的全部秘密。
+
+#WaterOfHealth
+As you take a sip, you feel your wounds heal completely.
+小啜一口你感到全身的傷口都完全癒合了。
+
+Power of health radiates from the water of this well. Take a sip from it to heal your wounds and satisfy hunger.
+井水中蕩漾著生命的魔力。從中小啜一口就能治癒你所有的傷口並填飽肚子。
+
+#WaterOfTransmutation
+Power of change radiates from the water of this well. Throw an item into the well to turn it into something else.
+井水中蕩漾著變換的魔力。向井水投入物品會將它轉變成另一件物品。
+
+#Web
+Everything is covered with a thick web here.
+這裡所有東西都覆蓋著一層厚厚的蜘蛛網。
+
+
+# Win
+
+You finally hold it in your hands, the Amulet of Yendor. Using its power you can take over the world or bring peace and prosperity to people or whatever. Anyway, your life will change forever and this game will end here. Or you can stay a mere mortal a little longer.
+終於，你將尼德羅護符攥在了手中。有了它的力量，你既可以統治世界，也可以做些將和平和財富帶給人民之類的事。無論如何，你的人生將從此煥然一新，而遊戲也將在這裡完結。你也可以選擇多逗留一段時間。
+Let's call it a day
+就到這裡為止吧
+I'm not done yet
+我還沒有準備好
+
+# Buffs
+
+Amok
+狂亂
+Barkskin
+樹皮
+Bleeding
+流血
+You bled to death...
+你失血過多而死...
+Blinded
+眼盲
+Burning
+著火
+%s burns up!
+%s燒起來了!
+You burned to death...
+你被燒死了...
+Charmed
+迷惑
+Combo
+連擊
+%d hit combo!
+%d連擊!
+Crippled
+殘疾
+Frozen
+冰凍
+Fury
+憤怒
+Immune to gases
+對氣體效果免疫
+Hungry
+飢餓
+Starving
+飢腸轆轆
+You are hungry.
+你感到有點餓.
+You are starving!
+你飢腸轆轆！
+You starved to death...
+你餓死了...
+Invisible
+隱形
+Levitating
+懸浮
+Illuminated
+光明
+Mind vision
+靈視
+Caustic ooze
+腐泥
+%s killed you...
+%s殺死了你...
+Paralysed
+麻痹
+Poisoned
+中毒
+You died from poison...
+你被毒死了...
+Blinded with rage
+怒氣沖天
+Rooted
+生根
+Shadowmelded
+暗影融合
+Slowed
+遲緩
+Zeroed in
+集中注意
+Sniper's mark
+狙擊標記
+Terror
+恐慌
+Vertigo
+暈眩
+Weakened
+虛弱
+
+%s hit %s
+%s擊中了%s
+%s killed you...
+%s殺死了你...
+%s defeated %s
+%s擊敗了%s
+%s %s your attack
+%s%s了你的進攻
+%s %s %s's attack
+%s%s了%s的進攻
+The pain snapped %s out of paralysis
+解除了麻痹的%s重新感覺到了疼痛
+
+dodged
+閃避
+poisoned
+中毒
+amok
+狂亂
+slowed
+遲緩
+mind
+靈
+vision
+視
+paralysed
+麻痹
+frightened
+恐慌
+rooted
+生根
+crippled
+殘疾
+bleeding
+流血
+dizzy
+昏睡
+invisible
+隱形
+
+
+# HeroActors
+
+#Hero
+One does not simply leave Pixel Dungeon.
+不能就這麼輕易離開像素地牢。
+level up!
+升級!
+Welcome to level %d! Now you are healthier and more focused. It's easier for you to hit enemies and dodge their attacks.
+歡迎升到第%d級！現在你的生命值增加了，專注力也更提高了。你將更容易擊中敵人並閃避他們的進攻。
+You now have %s
+你獲得了%s
+There is something else here
+這裡還有些別的東西
+This chest is locked and you don't have matching key
+箱子上著鎖，你沒有匹配的鑰匙
+You don't have a matching key
+你沒有匹配的鑰匙
+You noticed something
+你留意到一些東西
+search
+搜尋
+you
+你
+
+You catch fire!
+你著火了！
+You are paralysed!
+你被麻痹了！
+You are poisoned!
+你中毒了！
+Caustic ooze eats your flesh. Wash away it!
+腐蝕泥漿正吞噬著你的血肉，快點洗掉它們！
+You can't move!
+你動彈不得！
+You feel weakened!
+你感到虛弱！
+You are blinded!
+你眼盲了！
+You become furious!
+你變得憤怒！
+You are charmed!
+你被迷惑了！
+You are crippled!
+你殘疾了!
+You are bleeding!
+你在流血！
+Everything is spinning around you!
+眼前的一切都在旋轉！
+
+# About
+
+Original code & graphics: Watabou\nLibGDX port: Kurt Yu\nMusic: Cube_Code\n\nThis game is inspired by Brian Walker's Brogue. Try it on Windows, Mac OS or Linux - it's awesome! ;)\n\nPlease visit official website for additional info:
+遊戲程式與圖像原作者： Watabou\nLibGDX移植： Kurt Yu\n音樂: Cube_Code\n中文化: 咕採 \n\n遊戲靈感來自 Brian Walker 的 Roguelike 遊戲 Brogue。\n\n更多資訊請訪問遊戲官網：
+
+pixeldungeon.watabou.ru
+pixeldungeon.watabou.ru
+
+# levelScene
+
+Descending...
+正在下樓...
+Ascending...
+正在上樓...
+Loading...
+載入中...
+Resurrecting...
+復活中...
+Returning...
+返回中...
+Falling...
+跌落中...
+	
+File not found. For some reason.
+出於某些原因，未找到文件。
+Something went wrong...
+出現問題了...
+
+# Result
+
+# mob
+Killed by %s on level %d
+被第%2$d層的%1$s殺死
+# boss
+Killed by the %s on level %d
+被第%2$d層的%1$s殺死
+# wand
+Killed by your own %s on level %d
+在第%2$d層被自己的%1$s殺死
+# glyph
+Killed by the %s on level %d
+在第%2$d層被%1$s殺死
+# trap
+Killed by discharge of %s on level %d
+在第%2$d層因觸發%1$s而死
+# burning
+Burned to death on level %d
+在第%d層焚燒至死
+# starving
+Starved to death on level %d
+在第%d層活活餓死
+# poison
+Died from poison on level %d
+在第%d層毒發身亡
+# toxicgas
+Died from toxic gas on level %d
+在第%d層死在毒氣中
+# bleeding
+Bled to death on level %d
+在第%d層因失血過多而致死
+# ooze
+Killed by a caustic ooze on level %d
+在第%d層死在腐蝕泥漿中
+# fall
+Fell to death on level %d
+在第%d層摔死
+# win
+Obtained the Amulet of Yendor
+得到了尼德羅護符
+Killed by an explosion of a bomb on level %d
+在第%d層被炸彈炸死
+
+
+
+# Journal
+
+Journal
+日誌
+Well of Health
+健康之井
+Well of Awareness
+通曉之井
+Well of Transmutation
+嬗變之井
+Alchemy pot
+煉藥釜
+Garden
+花園
+Animated statue
+石像兵
+Sad ghost
+怨靈
+Old wandmaker
+年邁的魔杖匠人
+Troll blacksmith
+巨魔鐵匠
+Ambitious imp
+野心勃勃的小惡魔
+
+
+# Tips
+
+The text  is indecipherable...
+字跡難以辨認...
+Don't overestimate your strength, use weapons and armor you can handle.
+不要高估自己的力量，使用那些你能夠掌控的武器和裝備。
+Not all doors in the dungeon are visible at first sight. If you are stuck, search for hidden doors.
+地牢中有些門一開始會是隱形的。如果被困住了，找找看有沒有隱藏門。
+Remember, that raising your strength is not the only way to access better equipment, you can go the other way lowering its strength requirement with Scrolls of Upgrade.
+務必記住，提升力量並不是穿戴更好裝備的唯一方法，你還可以使用升級卷軸來降低它們的力量需求。
+You can spend your gold in shops on deeper levels of the dungeon. The first one is on the 6th level.
+你會在地牢更深處找到可以花錢買東西的商店，第一家商店位於地牢的第6層。
+Beware of Goo!
+當心史萊姆！
+Pixel-Mart - all you need for successful adventure!
+像素集市 - 成功冒險所需的裝備這裡應有盡有。
+Identify your potions and scrolls as soon as possible. Don't put it off to the moment when you actually need them.
+盡快鑒定你的藥水和卷軸。不要拖到你真的需要使用它們的時候。
+Being hungry doesn't hurt, but starving does hurt.
+飢餓不會造成傷害，但飢腸轆轆則會損害你的健康。
+Surprise attack has a better chance to hit. For example, you can ambush your enemy behind a closed door when you know it is approaching.
+突襲會提高命中率。比方說，你可以在敵人快要靠近時埋伏在關閉的門後。
+Don't let The Tengu out!
+別讓天狗忍者跑了！
+Pixel-Mart. Spend money. Live longer.
+像素集市 - 破財免災。
+When you're attacked by several monsters at the same time, try to retreat behind a door.
+遭遇圍攻時試著撤退到門後。
+If you are burning, you can't put out the fire in the water while levitating.
+如果你著火了,懸浮在水面上可無法將火撲滅。
+There is no sense in possessing more than one Ankh at the same time, because you will lose them upon resurrecting.
+同時攜帶超過一個重生十字章沒什麼意義，因為一旦重生你會失去身上攜帶的所有物品。
+DANGER! Heavy machinery can cause injury, loss of limbs or death!
+警告!重型機械可能導致傷殘甚至死亡。
+Pixel-Mart. A safer life in dungeon.
+像素集市 - 更安全的地牢生活。
+When you upgrade an enchanted weapon, there is a chance to destroy that enchantment.
+當升級附魔武器時,會有一定機率失去附魔效果。
+In a Well of Transmutation you can get an item, that cannot be obtained otherwise.
+你可以在嬗變之井獲得獨一無二的物品
+The only way to enchant a weapon is by upgrading it with a Scroll of Weapon Upgrade.
+附魔武器的唯一方法是對武器使用武器升級卷軸。
+No weapons allowed in the presence of His Majesty!
+在陛下面前不准亮出武器！
+Pixel-Mart. Special prices for demon hunters!
+像素集市 - 惡魔獵人專售特價！
+The text is written in demonic language.
+牌子上的文字是用惡魔語寫的.。
+What are you doing here?!
+你在這做什麼？！
+
+As you try to read the sign it bursts into greenish flames.
+當您嘗試讀取這個記號時候，它在綠色火焰中燒盡了。
+
+# Challenges
+
+Challenges
+挑戰
+No food
+忍飢挨餓
+No armors
+衣不蔽體
+No healing potions
+無生命藥水
+No dew, no seeds
+無露水，無種子
+Swarm intelligence
+群體智能
+Darkness
+黑暗
+
+
+# Badges
+
+Badge endorsed: %s
+獲得勳章：%s
+New super badge: %s
+新的超級勳章：%s
+New badge: %s
+新勳章：%s
+
+10 enemies slain
+10敵人斬殺
+50 enemies slain
+50敵人斬殺
+150 enemies slain
+150敵人斬殺
+250 enemies slain
+250敵人斬殺
+100 gold collected
+收集100金
+500 gold collected
+收集500金
+2500 gold collected
+收集2500金
+7500 gold collected
+收集7500金
+Level 6 reached
+升到等級6
+Level 12 reached
+升到等級12
+Level 18 reached
+升到等級18
+Level 24 reached
+升到等級24
+All potions identified
+全部藥水已鑒定
+All scrolls identified
+全部卷軸已鑒定
+All rings identified
+全部戒指已鑒定
+All wands identified
+全部魔杖已鑒定
+All potions, scrolls, rings & wands identified
+全部藥水，卷軸，戒指和魔杖都已鑒定
+All bags bought
+所有行囊都已購入
+Death from fire
+死於烈火
+Death from poison
+死於中毒
+Death from toxic gas
+死於毒氣
+Death from hunger
+死於飢餓
+Death from a glyph
+死於護甲符文
+Death from falling down
+死於跌落
+Death from fire, poison, toxic gas & hunger
+死於烈火，中毒，毒氣和飢餓
+1st boss slain
+斬殺第一個BOSS
+2nd boss slain
+斬殺第二個BOSS
+3rd boss slain
+斬殺第三個BOSS
+4th boss slain
+斬殺第四個BOSS
+1st boss slain by Warrior, Mage, Rogue & Huntress
+使用戰士,法師,遊俠和女獵斬殺第一個BOSS
+3rd boss slain by Gladiator, Berserker, Warlock, Battlemage, Freerunner, Assassin, Sniper & Warden
+使用角鬥士，狂戰士，術士，戰法師，疾行客，刺客，狙擊手和守望者斬殺第三個BOSS
+Ring of Haggler obtained
+獲得折扣之戒
+Ring of Thorns obtained
+獲得荊棘之戒
+13 points of Strength attained
+力量提升至13點
+15 points of Strength attained
+力量提升至15點
+17 points of Strength attained
+力量提升至17點
+19 points of Strength attained
+力量提升至19點
+10 pieces of food eaten
+吃下10塊食物
+20 pieces of food eaten
+吃下20塊食物
+30 pieces of food eaten
+吃下30塊食物
+40 pieces of food eaten
+吃下40塊食物
+Item of level 3 acquired
+道具升級至3級
+Item of level 6 acquired
+道具升級至6級
+Item of level 9 acquired
+道具升級至9級
+Item of level 12 acquired
+道具升級至12級
+All rare monsters slain
+斬殺所有稀有怪物
+Amulet of Yendor obtained
+獲得尼德羅護符
+Amulet of Yendor obtained by Warrior, Mage, Rogue & Huntress
+使用戰士，法師，遊俠和女獵獲得尼德羅護符
+7-hit combo
+7連擊
+3 potions cooked
+調配3瓶藥水
+6 potions cooked
+調配6瓶藥水
+9 potions cooked
+調配9瓶藥水
+12 potions cooked
+調配12瓶藥水
+Level completed without killing any monsters
+不殺死任何怪物通過一層
+Monster killed by a Grim weapon
+使用殘暴武器殺死怪物
+6 piranhas killed
+殺死6條食人魚
+15 monsters killed at nighttime
+在夜間殺死15隻怪物
+10 games played
+完成10局遊戲
+100 games played
+完成100局遊戲
+500 games played
+完成500局遊戲
+2000 games played
+完成2000局遊戲
+Happy end
+勝利歸來
+Challenge won
+完成挑戰
+Thanks for your support!
+感謝您的支持！
+
+#Challenges
+On diet
+飲食
+
+Faith is my armor
+信仰是我的護甲
+
+Pharmacophobia
+藥效
+
+Barren land
+不毛之地
+
+Swarm intelligence
+群體智慧
+
+Into darkness
+進入黑暗
+
+Forbidden runes
+禁忌符文
+
+# Blacksmith
+
+Select an item for the quickslot
+選擇要放置的物品
+
+Ok, a deal is a deal, dat's what I can do for you: I can reforge 2 items and turn them into one of a better quality.
+好的，生意就是生意，這就是我能為你做的：我可以將兩個物品重鑄成一個品質更好的物品。
+Select an item to reforge
+選擇你要重鑄的物品
+Reforge them
+重鑄
+
+# Catalogus
+
+Potions
+藥水
+Scrolls
+卷軸
+Catalogus
+概覽
+
+# ChooseWay
+
+Which way will you follow?
+你會選擇走上哪條道路呢？
+I'll decide later
+我稍後再決定
+Mastery
+進階
+ERROR
+錯誤
+
+
+# Menu
+
+Challenges
+挑戰
+Rankings
+排行榜
+Start New Game
+重開遊戲
+Main Menu
+主選單
+Exit Pixel Dungeon
+退出遊戲
+Return to Game
+返回遊戲
+
+
+# Imp
+
+Oh yes! You are my hero!\nRegarding your reward, I don't have cash with me right now, but I have something better for you. This is my family heirloom ring: my granddad took it off a dead paladin's finger.
+哦，好的！你是我的大英雄！\n關於你報酬的問題，我目前沒有太多現金，不過我有更好的東西給你。這可是我家族祖傳的戒指：是我祖父從一名死掉的聖騎士的指頭上扳下來的。
+Take the ring
+拿走戒指
+
+
+# Info
+
+There is nothing here.
+這裡空無一物。
+
+Chest
+箱子
+Locked chest
+上鎖箱子
+Crystal chest
+水晶箱子
+
+Tomb
+墓碑
+Skeletal remains
+骨骸
+
+You won't know what's inside until you open it!
+你打開它才會知道裡面有什麼！
+You won't know what's inside until you open it! But to open it you need a golden key.
+你打開它才會知道裡面有什麼！但首先你需要一把金鑰匙。
+You can see %s inside, but to open the chest you need a golden key.
+你看見箱子裡放著%s，但你需要一把金鑰匙才能打開它。
+This ancient tomb may contain something useful, but its owner will most certainly object to checking.
+古老的墓碑下也許埋著有用的東西，但它的主人肯定不會希望有人挖墳。
+This is all that's left from one of your predecessors. Maybe it's worth checking for any valuables.
+這是從前的冒險者唯一留下的東西。或許應該檢查下裡面有沒有什麼值得帶走的東西。
+
+
+# KeyBinding
+
+Reset To Defaults
+重置為預設狀態
+
+<None>
+<None>
+
+# Stats 
+
+Unable to load additional information
+無法載入額外資訊
+Stats
+統計
+Items
+物品
+Badges
+勳章
+Level %d %s
+%d級%s
+Challenges
+挑戰
+Health
+生命
+Strength
+力量
+Buffs
+效果
+Experience
+經驗
+Game Duration
+計步器
+Maximum Depth
+最深層數
+Mobs Killed
+殺死怪物數量
+Gold Collected
+已收集金幣
+Food Eaten
+吃下食物數量
+Potions Cooked
+調配藥水數量
+Ankhs Used
+使用重生十字章數量
+
+
+# Resurrect
+
+You died, but you were given another chance to win this dungeon. Will you take it?
+你倒下了，但你還有再來一次的機會。你要接受它嗎？
+Yes, I will fight!
+是的，我將戰鬥到底！
+No, I give up
+不，我選擇放棄
+
+
+# SadGhost
+
+Yes! Yes!!! This is it! Please give it to me! And you can take one of these items, maybe they will be useful to you in your journey...
+太好了，太好了，就是它！請把它交給我！而你可以挑一件東西拿走，或許它在你接下來的旅途裡能派上用場...
+Yes! The ugly creature is slain and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...
+太好了，那隻醜陋的怪物已經死了而我也終於能夠安息...請挑一件東西拿走，或許它在你接下來的旅途裡能派上用場...
+Ghost's weapon
+怨靈的武器
+Ghost's armor
+怨靈的防具
+Farewell, adventurer!
+前進吧冒險者!
+
+# Setting
+
+Default Zoom
+預設縮放
+Scale up UI
+縮放介面
+Music
+音樂
+Sound FX
+音效
+Key bindings
+按鍵綁定
+Brightness
+亮度
+Second quickslot
+第二個物品欄位
+Switch to portrait
+切至豎屏
+Switch to landscape
+切至橫屏
+Switch to fullscreen
+切至全螢幕
+Switch to windowed
+切至窗口
+
+
+# Story
+
+The Dungeon lies right beneath the City, its upper levels actually constitute the City's sewer system. Being nominally a part of the City, these levels are not that dangerous. No one will call it a safe place, but at least you won't need to deal with evil magic here.
+地牢位於城市的正下方，較上層的部分實際上構成了城市的下水道系統。作為名義上歸屬於城市的一部分，這幾層並不那麼危險。雖然不會有人把這裡稱為安全地帶，但你在這裡起碼不需要面對邪惡的魔法。
+
+Many years ago an underground prison was built here for the most dangerous criminals. At the time it seemed like a very clever idea, because this place indeed was very hard to escape. But soon dark miasma started to permeate from below, driving prisoners and guards insane. In the end the prison was abandoned, though some convicts were left locked up here.
+許多年前這裡興建了地下牢獄用於囚禁那些最危險的犯人。那個時候這個想法看起來非常明智，因為這裡確實很難逃脫。但很快，黑暗的瘴氣從下方蔓延而來，讓犯人和看守都陷入了瘋狂。最終儘管仍然有許多犯人還關在這裡，牢獄還是被廢棄了。
+
+The caves, which stretch down under the abandoned prison, are sparcely populated. They lie too deep to be exploited by the City and they are too poor in minerals to interest the dwarves. In the past there was a trade outpost somewhere here on the route between these two states, but it has perished since the decline of Dwarven Metropolis. Only omnipresent gnolls and subterranean animals dwell here now.
+廢棄牢獄下方延伸出的洞穴人跡罕至。城市難以在這麼深的地底進行開發，礦物貧瘠也無法勾起矮人的興趣。過去這裡曾一度是城邦之間驛道的貿易前哨，但自從矮人之都衰落後這裡也就荒廢了。如今只有那些無處不在的豺狼人和地下生物還在這裡遊蕩。
+
+Dwarven Metropolis was once the greatest of dwarven city-states. In its heyday the mechanized army of dwarves has successfully repelled the invasion of the old god and his demon army. But it is said, that the returning warriors have brought seeds of corruption with them, and that victory was the beginning of the end for the underground kingdom.
+矮人之都曾是最偉大的矮人城邦。在其全盛時期矮人的機械軍團曾成功地抵御古神和它的惡魔軍團的入侵。但傳聞凱旋的戰士也帶回了腐朽的種子，這場勝利也標誌著這座地下王國衰敗的開端。
+
+In the past these levels were the outskirts of Metropolis. After the costly victory in the war with the old god dwarves were too weakened to clear them of remaining demons. Gradually demons have tightened their grip on this place and now it's called Demon Halls.\n\nVery few adventurers have ever descended this far...
+過去這裡曾是矮人之都的郊區，對抗古神獲得代價高昂的勝利後，矮人國度太過虛弱，無法清除這裡殘留的惡魔。漸漸惡魔佔據了這裡，如今這裡被稱作惡魔大廳。\n\n罕有冒險者能抵達這麼深處的地底來...
+
+
+# Mobs
+
+#NPC
+
+golden bee
+金色蜜蜂
+Despite their small size, golden bees tend to protect their master fiercely. They don't live long though.
+儘管體型嬌小，但金色蜜蜂通常很勇敢的保護主人，只可惜它們活不久。
+
+You hear something died in the distance
+你聽到遠處有誰倒下了
+%+dEXP
+%+d經驗
+Real description is coming soon!
+正式的描述說明快好了!
+This %s is sleeping
+%s正在睡覺
+This %s is wandering
+%s正在遊蕩
+This %s is hunting
+%s正在狩獵
+This %s is fleeing
+%s正在逃竄
+This %s is passive
+%s是被動型生物
+
+Yog-Dzewa
+尤格-達茲瓦
+Yog-Dzewa is an Old God, a powerful entity from the realms of chaos. A century ago, the ancient dwarves barely won the war against its army of demons, but were unable to kill the god itself. Instead, they then imprisoned it in the halls below their city, believing it to be too weak to rise ever again.
+尤格-達茲瓦是一名來自混沌國度的強大古神。百年前，古代矮人險勝它所率領的惡魔軍團，但卻無力殺死這位神靈本身，因此便將它鎮壓在了城市下方的大廳中，矮人們相信它太過虛弱再也不會甦醒過來。
+Hope is an illusion...
+希望不過是幻象...
+rotting fist
+腐壞之拳
+burning fist
+燃燒之拳
+god's larva
+古神幼蟲
+
+wraith
+幽靈
+evaded
+閃避
+A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. Being an ethereal entity, it is very hard to hit with a regular weapon.
+墓穴被驚擾的幽靈是為復仇而來的罪孽靈體，由於它那虛無的體質，很難被一般的武器擊中。
+
+dwarf warlock
+矮人術士
+%s's shadow bolt killed you...
+%s的暗影球殺死了你...
+When dwarves' interests have shifted from engineering to arcane arts, warlocks have come to power in the city. They started with elemental magic, but soon switched to demonology and necromancy.
+當矮人的興趣由工程轉向奧術後，術士掌控了城市的大權。它們一開始醉心於元素魔法，後來則逐漸涉足惡魔法術與亡靈法術。
+
+crazy thief
+瘋狂小偷
+crazy bandit
+瘋狂強盜
+%s stole %s from you!
+%s偷走了你的%s！
+\n\n%s is carrying a _%s_. Stolen obviously.
+\n\n%s在拿著_%s_。毫無疑問是他偷來的贓物。
+Deeper levels of the dungeon have always been a hiding place for all kinds of criminals. Not all of them could keep a clear mind during their extended periods so far from daylight. Long ago, these crazy thieves and bandits have forgotten who they are and why they steal.
+地牢深處向來是藏污納垢之所，各種罪犯在這裡群聚。並非所有不法者都能在不見天日的漫長年月中保持理智。陷入癲狂的飛賊和強盜早已忘記了他們身份為何，為何掠奪。
+
+Tengu
+天狗忍者
+memory of Tengu
+天狗忍者記憶
+Free at last...
+終於解脫了...
+Gotcha, %s!
+逮到了, %s!
+Tengu are members of the ancient assassins clan, which is also called Tengu. These assassins are noted for extensive use of shuriken and traps.
+天狗忍者隸屬古代刺客聯盟，這個組織亦名天狗盟。這些刺客以擅長使用手裡劍和陷阱而聞名。
+
+swarm of flies
+蠅群
+The deadly swarm of flies buzzes angrily. Every non-magical attack will split it into two smaller but equally dangerous swarms.
+致命蠅群嗡嗡作響，透著怒意。每次非魔法攻擊都會讓它分裂成兩個更小但同樣危險的蠅群。
+
+succubus
+魅魔
+The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus can charm a hero, who will become unable to attack anything until the charm wears off.
+魅魔是一種外表酷似妖媚少女(稍微歌德式)的惡魔。魅魔能夠使用魔法魅惑英雄，使得他們在魅惑效果結束前無法攻擊任何目標。
+
+animated statue
+石像兵
+You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. While the statue itself is made of stone, the _%s_, it's wielding, looks real.
+你或許會誤以為這只是地下城裡又一尊醜陋雕像，但雙眼裡的紅芒卻出賣了它。雕像本身是石造的，但它手中的%s看起來卻好像是真的。
+
+cave spinner
+洞穴蜘蛛
+These greenish furry cave spiders try to avoid direct combat, preferring to wait in the distance while their victim, entangled in the spinner's excreted cobweb, slowly dies from their poisonous bite.
+這些綠毛的洞穴蜘蛛會避免接觸戰鬥，它們更喜歡遠遠地看著受害者在蜘蛛網裡無望掙扎，慢慢毒發身亡。
+
+skeleton
+骷髏
+You were killed by the explosion of bones...
+你被爆裂開的骨頭戳死了...
+blocked
+格擋
+Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, animated by emanations of evil magic from the depths below. After they have been damaged enough, they disintegrate in an explosion of bones.
+受到地底深處的邪惡魔法驅使，那些不幸的冒險者和地牢里死去的原住民的腐朽骨骸中爬出了骷髏。遭受到一定傷害後會爆開濺射出尖銳的骨片。
+
+gnoll scout
+豺狼巡邏兵
+Gnolls are hyena-like humanoids. They dwell in sewers and dungeons, venturing up to raid the surface from time to time. Gnoll scouts are regular members of their pack, they are not as strong as brutes and not as intelligent as shamans.
+豺狼是一類貌似鬣狗的類人生物。它們棲息在下水道和地牢中，不時闖上地表進行襲擊。豺狼巡邏兵是其族類的普通成員，強壯比蠻人遜色，聰明亦不及薩滿。
+shielded brute
+持盾蠻人
+gnoll shaman
+豺狼薩滿
+%s's lightning bolt killed you...
+%s的閃電球殺死了你...
+The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer battle spells to compensate for lack of might, not hesitating to use them on those who question their status in a tribe.
+那些最聰明的豺狼人精擅薩滿法術。豺狼薩滿喜歡用戰鬥咒術來彌補力量上的不足，即使面對膽敢質疑它們的同族，它也會毫不遲疑地施術。
+
+dwarf monk
+矮人武僧
+senior monk
+聖武僧
+%s has knocked the %s from your hands!
+%s擊落了你手中的%s!
+These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat.
+這些僧侶皆為狂信徒，盡其所能的從一切異族手中保護他們城市的秘密。他們不披護甲也不拿武器，所憑唯有他們的徒手格鬥技藝。
+
+scorpio
+毒蠍
+acidic scorpio
+強酸毒蠍
+These huge arachnid-like demonic creatures avoid close combat by all means, firing crippling serrated spikes from long distances.
+這些巨大的蜘形惡魔生物想方設法地回避近身肉搏，轉而遠距離發射致殘的鋸刺。
+
+marsupial rat
+袋鼬
+albino rat
+白化袋鼬
+Marsupial rats are aggressive, but rather weak denizens of the sewers. They can be dangerous only in big numbers.
+袋鼬是一種富有攻擊性但卻很弱小的下水道生物。只有在成群結隊的時候才會造成威脅。
+
+giant piranha
+巨型食人魚
+These carnivorous fish are not natural inhabitants of underground pools. They were bred specifically to protect flooded treasure vaults.
+地下水域並非這些肉食魚類的天然棲息地。它們專門被放養在此用來看守被淹沒的寶庫。
+
+King of Dwarves
+矮人國王
+undead King of Dwarves
+矮人國王亡靈
+parried
+招架
+You cannot kill me, 
+你殺不死我，
+... I am... immortal...
+...我將...永恆不朽...
+Arise, slaves!
+起身，奴隸們！
+How dare you!
+你好大的膽子！
+The last king of dwarves was known for his deep understanding of processes of life and death. He has persuaded members of his court to participate in a ritual, that should have granted them eternal youthfulness. In the end he was the only one, who got it - and an army of undead as a bonus.
+矮人最後的王，以洞悉生死機制而著稱。他曾說服議會成員參加一場本應讓他們獲得不朽青春的儀式。最終卻僅他一人成功 —— 外加誕生了一支亡靈軍團.
+undead dwarf
+矮人亡靈
+These undead dwarves, risen by the will of the King of Dwarves, were members of his court. They appear as skeletons with a stunning amount of facial hair.
+由矮人國王的意志喚醒的矮人亡靈，前議會成員。它們外觀形如滿臉鬍鬚的骷髏。
+
+Goo
+史萊姆
+Goo is pumping itself up!
+史萊姆正在蓄力!
+glurp... glurp...
+咕嚕...咕嚕...
+GLURP-GLURP!
+咕嚕-咕嚕！
+Little known about The Goo. It's quite possible that it is not even a creature, but rather a conglomerate of substances from the sewers that gained rudiments of free will.
+我們對史萊姆所知甚少。它甚至很有可能根本就不算是生物，反而比較像是一團由下水道的自由意識雛形所組成的聚合體。
+
+mimic
+寶箱怪
+Mimics are magical creatures which can take any shape they wish. In dungeons they almost always choose a shape of a treasure chest, because they know how to beckon an adventurer.
+寶箱怪是可以變成任何他們希望形狀的神奇生物。在地牢他們幾乎總是選擇一個寶箱的形狀，因為他們知道如何召喚一個冒險家。
+
+golem
+魔像
+The Dwarves tried to combine their knowledge of mechanisms with their newfound power of elemental binding. They used spirits of earth as the "soul" for the mechanical bodies of golems, which were believed to be most controllable of all. Despite this, the tiniest mistake in the ritual could cause an outbreak.
+矮人們曾經嘗試將它們最新發現的元素力量應用於機械設計中。它們抽取地魄作為驅動魔像機械軀體的靈魂，相信這就足以控制好一切。儘管如此，這項儀式哪怕差之毫釐都會導致魔像瘋狂暴走。
+
+evil eye
+邪眼
+%s's deathgaze killed you...
+%s的死亡射線殺死了你...
+One of this demon's other names is "orb of hatred", because when it sees an enemy, it uses its deathgaze recklessly, often ignoring its allies and wounding them.
+這種惡魔有著"憎惡之球"的別名，因為一旦它發現敵人，就會不分青紅皂白，不顧友軍傷亡地釋放它的死亡射線。
+
+fire elemental
+火元素
+Wandering fire elementals are a byproduct of summoning greater entities. They are too chaotic in their nature to be controlled by even the most powerful demonologist.
+這些遊蕩的火元素是召喚某個更加巨大的存在時出現的副產物，它們的天性過於混沌，以至於連最強大的惡魔使者都無法役使它們。
+
+DM-300
+DM-300
+
+DM-350
+DM-350
+
+DM-300 repairs itself!
+DM-300進行了自我修理！
+
+Mission failed. Shutting down.
+任務失敗。系統關閉。
+Unauthorised personnel detected.
+偵測到未授權人員闖入。
+This machine was created by the Dwarves several centuries ago. Later, Dwarves started to replace machines with golems, elementals and even demons. Eventually it led their civilization to the decline. The DM-300 and similar machines were typically used for construction and mining, and in some cases, for city defense.
+這台設備是矮人在數個世紀之前建造的。後來，矮人們選擇放棄機械轉而依賴魔像，元素甚至惡魔的力量，這最終導致了矮人文明的衰落。DM-300及其系列設備用於建設和挖掘，某些情況下也能用於城市防禦。
+
+sewer crab
+下水道螃蟹
+These huge crabs are at the top of the food chain in the sewers. They are extremely fast and their thick exoskeleton can withstand heavy blows.
+這些巨型螃蟹位於下水道食物鏈的頂端。它們的行動極為迅速，並擁有能抵擋重擊的厚實外骨骼。
+
+curse personification
+詛咒人形
+
+This creature resembles the sad ghost, but it swirls with darkness. Its face bears an expression of despair.
+這種生物酷似怨靈，但它四周圍繞著黑暗漩渦。它的臉上有一種絕望的表情。
+
+gnoll brute
+豺狼蠻人
+enraged
+激怒
+%s becomes enraged!
+%s被激怒了！
+Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, they go berserk, inflicting even more damage to their enemies.
+在所有的豺狼人中，豺狼蠻人塊頭最高大，體格最強壯，身骨最堅韌。當受到重傷時，它們會進入狂戰士模式，對敵人造成更加巨大的傷害。
+
+vampire bat
+吸血蝙蝠
+These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by replenishing their health with each successful attack.
+這些棲息在洞穴頂部，敏捷難纏的蝙蝠能在成功命中目標時回復自己的生命，借此擊敗塊頭遠大於它們的對手。
+
+
+# Npcs
+
+old wandmaker
+年邁的魔杖匠人
+Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - a _Rotberry seed_. Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.
+哦，在這種地方遇見一個這麼好的人真是喜事一樁！我來這裡尋找一種稀有藥材-_墮落莓種子_。作為施法者，在這些怪物面前自保自然綽綽有餘，但我老是迷路，太尷尬了。或許你能幫幫我？如果你能為我提供幫助我會很樂意送給你一支魔杖作為回報。
+Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - _corpse dust_. It can be gathered from skeletal remains and there is an ample number of them in the dungeon. Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.
+哦，在這種地方遇見一個這麼好的人真是喜事一樁！我來這裡尋找一種稀有藥材-_黃泉土_。你需要從骨骸中採集它們，它們分布在這一層地牢的許多位置。作為施法者，在這些怪物面前自保自然綽綽有餘，但我老是迷路，太尷尬了。或許你能幫幫我？如果你能為我提供幫助我會很樂意送給你一支魔杖作為回報。
+Any luck with a Rotberry seed, %s? No? Don't worry, I'm not in a hurry.
+墮落莓種子搞定沒，%s？不急的，我不著急。
+Any luck with corpse dust, %s? Bone piles are the most obvious places to look.
+黃泉土搞定沒，%s？骨頭堆應該還是蠻容易看到的。
+absorbed
+全神貫注
+This old but hale gentleman wears a slightly confused expression. He is protected by a magic shield.
+這位年邁但神采奕奕的紳士表情略微困惑。他撐著魔法盾作為防護。
+Berries of this shrub taste like sweet, sweet death.
+這種植物的漿果嘗起來非常甜，甜到死。
+Rotberry
+墮落莓
+seed of Rotberry
+墮落莓種子
+The seed emits a roar that echoes throughout the dungeon!
+這枚種子發出刺耳的尖嘯，不停地回蕩在地牢當中！
+
+shopkeeper
+店主
+This stout guy looks more appropriate for a trade district in some large city than for a dungeon. His prices explain why he prefers to do business here.
+這個矮胖的傢伙看起來更適合在大城市而非地牢裡做生意。他厚顏無恥的標價解釋了為什麼他選擇來這裡。
+Select an item to sell
+選擇一件物品來出售
+
+rat king
+鼠王
+I'm not sleeping!
+我可沒打盹！
+What is it? I have no time for this nonsense. My kingdom won't rule itself!
+它誰？我沒功夫跟你說這些有的沒的。我的王國需要我的統治！
+This rat is a little bigger than a regular marsupial rat and it's wearing a tiny crown on its head.
+這只袋鼬體型比普通袋鼬稍大，頭上戴著一頂小小的王冠。
+
+mirror image
+鏡像
+This illusion bears a close resemblance to you, but it's paler and twitches a little.
+幻像模樣與你很相似，但會微微晃動，顏色也略顯蒼白。
+
+ambitious imp
+野心勃勃的小惡魔
+Hello, friend!
+朋友，你好！
+Imps are lesser demons. They are notable for neither their strength nor their magic talent. But they are quite smart and sociable, and many of imps prefer to live and do business among non-demons.
+小惡魔是一種劣魔。他們力量貧弱魔力也不強大，但卻非常機靈，富有社交手腕，而且許多小惡魔喜歡生活在非惡魔中，與他們做生意。
+Are you an adventurer? I love adventurers! You can always rely on them if something needs to be killed. Am I right? For bounty of course ;)\nIn my case this is _golems_ who need to be killed. You see, I'm going to start a little business here, but these stupid golems are bad for business! It's very hard to negotiate with wandering lumps of granite, damn them! So please, kill... let's say _6 of them_ and a reward is yours.
+你是冒險者？我愛死冒險者了！如果你想殺死某些東西總是要靠冒險者出力的。我說得不錯吧？酬勞當然不會少了你的。 ;)\n這次我們要對付的是_魔像_。你看啊，我打算在這做點小生意什麼的，可是這些蠢傢伙對生意可沒好影響！該死的，和這些晃來晃去的大岩塊根本說不通話。所以我請你殺_6只魔像_，你會得到獎勵的。
+Are you an adventurer? I love adventurers! You can always rely on them if something needs to be killed. Am I right? For bounty of course ;)\nIn my case this is _monks_ who need to be killed. You see, I'm going to start a little business here, but these lunatics don't buy anything themselves and will scare away other customers. So please, kill... let's say _8 of them_ and a reward is yours.
+你是冒險者？我愛死冒險者了！如果你想殺死某些東西總是要靠冒險者出力的.我說得不錯吧?酬勞當然不會少了你的。 ;)\n這次咱要對付的是_武僧_。你看啊，我打算在這做點小生意什麼的，可是這些瘋子非但不消費還把其他客人都給嚇跑了。所以我請你殺_8名武僧_，你會得到獎勵的。
+How is your golem safari going?
+魔像狩獵進展如何？
+Oh, you are still alive! I knew that your kung-fu is stronger ;) Just don't forget to grab these monks' tokens.
+啊，你還活著呢！我就知道你的功夫更好 ;) 別忘了把那些僧侶的標記給帶回來。
+See you, %s!
+再會，%s！
+Psst, %s!
+噓，%s！
+Imps are lesser demons. They are notable for neither their strength nor their magic talent, but they are quite smart and sociable. Many imps prefer to live among non-demons.
+小惡魔是一種劣魔。他們力量貧弱魔力也不強大，但卻非常機靈，富有社交手腕，而且許多小惡魔喜歡生活在非惡魔中。
+
+sad ghost
+怨靈
+Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place... Not until I have my _dried rose_... It's very important to me... Some monster stole it from my body...
+你好，冒險者...我曾和你一樣強壯自信...而我現在死了..但我依然無法離開這裡，除非我找到我那束_枯萎玫瑰_...它對我非常重要...某隻怪物從我屍體上偷走了它。
+Please... Help me... Find the rose...
+請...請幫助我...找到那束玫瑰...
+Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place... Not until I have my revenge... Slay the _fetid rat_, that has taken my life...
+你好，冒險者...我曾和你一樣強壯自信...而我現在死了..但我依然無法離開這裡，除非我完成我的復仇...殺死那隻_腐臭鼠鼬_，它曾經奪走了我的性命。
+Please... Help me... _Slay the abomination_...
+請...請幫助我..._殺死那只惡心的傢伙_...
+The ghost is barely visible. It looks like a shapeless spot of faint light with a sorrowful face.
+怨靈若隱若現。它無形無體，看起來好像一團模糊的光暈，依稀分辨出一張悲傷的面容。
+fetid rat
+腐臭袋鼬
+This marsupial rat is much larger, than a regular one. It is surrounded by a foul cloud.
+腐臭袋鼬體型比普通袋鼬更巨大。它周圍瀰漫著腐臭的毒霧。
+
+#curse
+Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place, as I am bound by a horrid curse... Please... Help me... _Destroy the curse_...
+你好，冒險者...我曾和你一樣強壯自信...而我現在死了..但我依然無法離開這裡，因為我被可怕的詛咒困住了...拜託...幫幫我..._破壞那詛咒_...
+
+Thank you, %s! The curse is broken and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...
+謝謝你，%s！詛咒已經破壞，而我終於可以安息了...請挑一件東西拿走，或許它在你接下來的旅途裡能派上用場...
+
+Yes, I will do it for you
+可以，我會幫你
+
+No, I can't help you
+不，我幫不了你
+
+troll blacksmith
+巨魔鐵匠
+your %s certainly looks better now
+你的%s看起來品質的確有所提高
+Hey human! Wanna be useful, eh? Take dis pickaxe and mine me some _dark gold ore_, _15 pieces_ should be enough. What do you mean, how am I gonna pay? You greedy...\nOk, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, I'm the only blacksmith around.
+嘿，人類！你也想要多少派上點用場吧？拿走那只鎬然後給我挖些_暗金礦_回來，_15塊_應該夠了。你什麼意思，你是說我得付你報酬？你這個吝嗇鬼...\n好，好，我沒錢給你，不過我能幫你做點鐵匠活。你運氣真是好啊，我可是附近唯一的鐵匠。
+Hey human! Wanna be useful, eh? Take dis pickaxe and _kill a bat_ wit' it, I need its blood on the head. What do you mean, how am I gonna pay? You greedy...\nOk, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, I'm the only blacksmith around.
+嘿，人類！你也想要多少派上點用場吧?用那支鋤頭殺隻_蝙蝠_然後給我帶回來，我需要鋤頭上沾點蝙蝠血。你什麼意思，你是說我得付你報酬？你這個吝嗇鬼...\n好，好，我沒錢給你，不過我能幫你做點鐵匠活。你運氣真是好啊，我可是附近唯一的鐵匠。
+Are you kiddin' me? Where is my pickaxe?!
+你在耍我嗎？我的鋤頭呢？
+Dark gold ore. 15 pieces. Seriously, is it dat hard?
+暗金礦。15塊。真有那麼難?
+I said I need bat blood on the pickaxe. Chop chop!
+我說了我要鋤頭上沾點蝙蝠血。快快！
+Oh, you have returned... Better late dan never.
+哦你已經回來了啊...真慢不過總比沒來好。
+I'm busy. Get lost!
+我忙得很，滾遠些！
+Select 2 different items, not the same item twice!
+選擇兩件物品，不要選擇同一件物品兩次。
+Select 2 items of the same type!
+選擇2件同類型的物品。
+I need to know what I'm working with, identify them first!
+我需要知道我在加工什麼，快去先把它們鑒定了！
+I don't work with cursed items!
+我可不負責加工詛咒物品！
+It's a junk, the quality is too poor!
+這是垃圾，品質太差做不了材料！
+I can't reforge these items!
+我沒辦法重鑄這些物品！
+This troll blacksmith looks like all trolls look: he is tall and lean, and his skin resembles stone in both color and texture. The troll blacksmith is tinkering with unproportionally small tools.
+巨魔鐵匠和其他巨魔一般模樣：高高瘦瘦，皮膚的紋理顏色都和石頭差不多。巨魔鐵匠操弄著和他體型極不相稱的小工具。
+
+
+# TradeItem
+
+FOR SALE: %s - %dg
+出售: %s - %d金
+
+Buy for %dg
+花費%d金購買
+
+Sell for %dg
+以%d金出售
+
+Sell 1 for %dg
+以%d金出售一件
+
+Sell all for %dg
+以%d金出售全部
+
+Never mind
+算了
+
+You've sold your %s for %dg
+你出售了%s並獲得%d金
+
+You've bought %s for %dg
+你購買了%s花費了%d金
+
+
+# Wandmaker
+
+Oh, I see you have succeeded! I do hope it hasn't troubled you too much. As I promised, you can choose one of my high quality wands.
+哦，我瞧見你成功了！我真的希望這沒太麻煩到你。正如我向你承諾過的，你現在可以挑走一支上好的魔杖作為報酬。
+
+Battle wand
+戰鬥魔杖
+Non-battle wand
+輔助魔杖
+
+Good luck in your quest, %s!
+祝福你的冒險， %s！
+
+# Plants
+
+PLANT
+種植
+
+Dreamweed
+幻夢草
+seed of Dreamweed
+幻夢草種子
+Upon touching a Dreamweed it secretes a glittering cloud of confusing gas.
+觸碰到幻夢草會刺激它分泌出一種令人陷入困惑幻覺的閃光氣體。
+
+Earthroot
+地縛根
+seed of Earthroot
+地縛根種子
+When a creature touches an Earthroot, its roots create a kind of natural armor around it.
+被生物觸碰到的地縛根會在生物體表用根須形成一種天然的護甲。
+
+Fadeleaf
+褪葉草
+seed of Fadeleaf
+褪葉草種子
+Touching a Fadeleaf will teleport any creature to a random place on the current level.
+觸碰到褪葉草的生物會被傳送到當前層的某個隨機位置。
+
+Firebloom
+烈焰花
+seed of Firebloom
+烈焰花種子
+When something touches a Firebloom, it bursts into flames.
+烈焰花會將觸碰它的東西點燃。
+
+Icecap
+冰帽草
+seed of Icecap
+冰帽草種子
+Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity.
+被觸碰的冰帽草會釋放出花粉將附近的一切冰凍起來。
+
+Sorrowmoss
+悲傷蘚
+seed of Sorrowmoss
+悲傷蘚種子
+A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom.
+悲傷蘚是一種花瓣鋒利如刃的花(並非苔蘚)，花瓣上塗滿了致命的毒液。
+
+Sungrass
+太陽草
+seed of Sungrass
+太陽草種子
+Sungrass is renowned for its sap's healing properties.
+太陽草以其汁液的治癒特效而聞名。
+Herbal healing
+草藥治癒
+
+Throw this seed to the place where you want to grow the %s.\n\n%s
+將種子扔在你希望%s生長的地方。\n\n%s
+
+
+# Items
+
+weightstone
+磨刀石
+Select a weapon to balance
+選擇一柄武器進行磨制
+you balanced your %s to make it faster
+磨制你的%s使之揮舞起來更快
+you balanced your %s to make it more accurate
+磨制你的%s使之命中更加精準
+Using a weightstone, you can balance your melee weapon to increase its speed or accuracy.
+使用磨刀石能夠將近戰武器變得更快速或者更精準。
+How would you like to balance your %s?
+你想要怎樣磨制你的%s呢？
+For speed
+提升速度
+For accuracy
+提升精準
+APPLY
+應用
+Never mind
+算了
+
+torch
+火把
+LIGHT
+照明
+It's an indispensable item in The Demon Halls, which are notorious for their poor ambient lighting.
+惡魔大廳不可或缺的物品，那裡因為可憐的環境照明而臭名昭著。
+
+Tome of Mastery
+進階寶典
+You can't read while blinded
+眼盲時無法閱讀
+This worn leather book is not that thick, but you feel somehow, that you can gather a lot from it. Remember though that reading this tome may require some time.
+這本皮革封面的書並不那麼厚，但你感覺從中獲益匪淺。請記得，閱讀這本書會你花費一些時間。
+You have chosen the way of the %s!
+你選擇了%s的道路！
+
+arcane stylus
+奧術蝕筆
+Select an armor to inscribe on
+選擇一件護甲來進行蝕刻
+you inscribed the %s on your %s
+你將%s蝕刻在了你的%s上。
+glyph
+符文
+This arcane stylus is made of some dark, very hard stone. Using it you can inscribe a magical glyph on your armor, but you have no power over choosing what glyph it will be, the stylus will decide it for you.
+奧術蝕筆是用一些黑色的非常堅硬的石料做成的。使用它能夠在護甲上蝕刻魔法符文，但你無力去選擇蝕刻哪一種符文，蝕刻出的符文是由蝕筆替你選擇的。
+
+lloyd's beacon
+勞埃德的信標
+SET
+設置
+RETURN
+返回
+Strong magic aura of this place prevents you from using the lloyd's beacon!
+此地強烈的魔法波動使你無法使用勞埃德的信標！
+Psychic aura of neighbouring creatures doesn't allow you to use the lloyd's beacon at this moment.
+附近生物的心靈波動導致你此刻無法使用勞埃德的信標！
+The lloyd's beacon is successfully set at your current location, now you can return here anytime.
+勞埃德的信標成功地綁定到你當前的位置，現在你可以選擇在任何時間點回到這裡。
+Lloyd's beacon is an intricate magic device, that allows you to return to a place you have already been.
+勞埃德的信標是一種複雜的魔法設備，能夠允許你回到曾經去過的地方。
+This beacon was set somewhere on the level %d of Pixel Dungeon.
+信標設置在了像素地牢第%d層的某處。
+
+you wince as your grip involuntarily tightens around your %s
+你退縮不自覺地握緊了手中的%s
+
+Your pack is too full for the %s
+你的背包太滿裝不下%s了
+
+Because of frequent use, your %s has broken.
+因為太頻繁使用，你的%s已經損壞。
+
+Because of frequent use, your %s is going to break soon.
+因為太頻繁使用，你的%s已經快要損壞。
+
+DROP
+丟棄
+
+THROW
+扔出
+Choose direction of throw
+選擇投擲方向
+
+gold
+金幣
+Collect gold coins to spend them later in a shop.
+收集金幣以後可以在商店進行消費。
+A pile of %d gold coins. Collect gold coins to spend them later in a shop.
+一堆價值%d金的金幣。收集金幣以後可以在商店進行消費。
+One gold coin. Collect gold coins to spend them later in a shop.
+一枚金幣。收集金幣以後可以在商店進行消費。
+
+You can't remove cursed %s!
+你無法脫下被詛咒的%s！
+
+This is a mimic!
+這是一個寶箱怪！
+
+honeypot
+蜂蜜罐
+
+There is not much honey in this small honeypot, but there is a golden bee there and it doesn't want to leave it.
+沒有太多蜂蜜在這個小蜂蜜罐裡，但有一個金色蜜蜂在那裡，它並不想離開。
+
+EQUIP
+裝備
+UNEQUIP
+卸下
+
+dewdrop
+露珠
+A crystal clear dewdrop.
+晶瑩剔透的露珠。
+
+dew vial
+露水瓶
+DRINK
+飲用
+The dew vial was emptied to heal your wounds.
+飲乾露水瓶可以使傷口愈合。
+You collected a dewdrop into your dew vial.
+你將收集到的一滴露珠放進了露水瓶中。
+Your dew vial is full!
+露水瓶裝滿了！
+Your dew vial is empty!
+露水瓶是空的！
+You can store excess dew in this tiny vessel for drinking it later. If the vial is full, in a moment of deadly peril the dew will be consumed automatically.
+你可以把額外的露珠存放進這個小瓶子中供將來使用。如果裝滿它，在承受致命傷害的時候，它會自動消耗露水來治癒傷口。
+
+armor kit
+防具升級工具
+Select an armor to upgrade
+選擇一件防具來升級
+you applied the armor kit to upgrade your %s
+你使用防具升級工具改造了你的%s
+Using this kit of small tools and materials anybody can transform any armor into an "epic armor", which will keep all properties of the original armor, but will also provide its wearer a special ability depending on his class. No skills in tailoring, leatherworking or blacksmithing are required.
+使用這套器材無論是誰都能夠將任何一件防具改造成"傳奇裝備"，它不但能保留原有防具的全部特性，還能使得穿戴者獲得獨特的職業技能。無需任何裁剪，皮革加工和鐵匠技能。
+
+bomb
+炸彈
+You killed yourself with a bomb...
+你使用炸彈殺死了自己。
+This is a relatively small bomb, filled with black powder. Conveniently, its fuse is lit automatically when the bomb is thrown.
+這是一個相對較小的炸彈，充滿了黑色火藥。方便的是，當炸彈被拋出時保險絲會自動點亮。
+
+Ankh
+重生十字章
+The ancient symbol of immortality grants an ability to return to life after death. Upon resurrection all non-equipped items are lost.
+那古老的不朽符文賦予了你死後重生的能力。一旦重生失去掉攜帶的全部物品。
+
+Amulet of Yendor
+尼德羅護符
+END THE GAME
+終結遊戲
+The Amulet of Yendor is the most powerful known artifact of unknown origin. It is said that the amulet is able to fulfil any wish if its owner's will-power is strong enough to "persuade" it to do it.
+尼德羅護符是最強大的已知神器，無人知道它的來歷。據說如果它的主人擁有足夠強烈的意願，就能說服這枚護符實現任何願望。
+
+You are now familiar enough with your %s to identify it. It is %s.
+你已經足夠熟悉你的%s，能夠鑒定它了。它其實是%s。
+Interaction of different types of magic has negated the enchantment on this weapon!
+不同類型的魔力干擾使得武器附魔失去了效力。
+
+Unequip one ring
+卸下戒指
+
+You can only wear two rings at a time. Unequip one of your equipped rings
+你只能同時帶兩個戒指。卸下你一個裝備中戒指
+
+# Enchantments
+
+Grim %s
+殘酷%s
+Blazing %s
+爆炎%s
+Eldritch %s
+威嚇%s
+Unstable %s
+震蕩%s
+Vampiric %s
+吸血%s
+Lucky %s
+幸運%s
+Stunning %s
+震撼%s
+Piercing %s
+穿刺%s
+Venomous %s
+劇毒%s
+Chilling %s
+霜凍%s
+Wild %s
+狂野%s
+Shocking %s
+驚恐%s
+Tempered %s
+緩和%s
+
+# Weapon 
+
+broken
+損壞的
+upgraded
+升級後的
+degraded
+降級後的
+This %s is %s tier-%d melee weapon. 
+此%s是%s%d階近戰武器。
+Its average damage is %d points per hit. 
+它的平均傷害為每擊%d點。
+Its typical average damage is %d points per hit and usually it requires %d points of strength. 
+一般來說它的平均傷害為每擊%d點，此外想要自如地使用它通常需要%d點力量。
+Probably this weapon is too heavy for you. 
+或許此武器對你來說過於沈重。
+This is a rather fast and accurate weapon. 
+這是一把相當快速且精準的武器。
+This is a rather fast but inaccurate weapon. 
+這是一把相當快速但卻不精準的武器。
+This is a rather slow but accurate weapon. 
+這是一把相當緩慢但卻精準的武器。
+This is a rather slow and inaccurate weapon. 
+這是一把相當緩慢且不精準的武器。
+This is a rather fast weapon. 
+這是一把相當快速的武器。
+This is a rather slow weapon. 
+這是一把相當緩慢的武器。
+This is a rather accurate weapon. 
+這是一把相當精準的武器。
+This is a rather inaccurate weapon. 
+這是一把相當不精準的武器。
+It was balanced to make it faster. 
+它被磨制得更加快速了。
+It was balanced to make it more accurate. 
+它被磨制得更加精準了。
+It is enchanted.
+它已被附魔。
+Because of your inadequate strength the accuracy and speed of your attack with this %s is decreased.
+因為你力量過於孱弱這把的攻擊速度和精準都下降了。
+Because of your excess strength the damage of your attack with this %s is increased.
+因為你力量超過需求這把%s的攻擊速度和精準都增加了。
+You hold the %s at the ready.
+你正握著%s.
+You hold the %s at the ready, and because it is cursed, you are powerless to let go.
+你正握著%s,由於它被詛咒了,所以你沒辦法放手。
+You can feel a malevolent magic lurking within %s.
+你感到%s中蘊藏著惡毒的魔法。
+Average damage of this weapon equals to %d points per hit.
+此武器的平均傷害為每擊%d點。
+
+battle axe
+戰斧
+The enormous steel head of this battle axe puts considerable heft behind each stroke.
+這把戰斧斧刃使用了大量鋼材使得它每一次劈砍都能造成可觀的傷害。
+
+dagger
+匕首
+A simple iron dagger with a well worn wooden handle.
+一把鐵匕首，木質手柄磨損得很厲害。
+
+glaive
+大刀
+A polearm consisting of a sword blade on the end of a pole.
+由一根長柄和末端的刀刃構成的長桿武器。
+
+knuckleduster
+指虎
+A piece of iron shaped to fit around the knuckles.
+一塊貼合手指關節形狀的鐵片。
+
+longsword
+長劍
+This towering blade inflicts heavy damage by investing its heft into every cut.
+這把長刃如能發揮它沈重的優勢，那麼每一次劈砍都能造成大量傷害。
+
+mace
+鐵槌
+The iron head of this weapon inflicts substantial damage.
+這把武器的鐵頭能夠造成大量傷害。
+
+quarterstaff
+長棍
+A staff of hardwood, its ends are shod with iron.
+一根硬質木杖，末端釘有鐵頭。
+
+short sword
+短劍
+REFORGE
+重鑄
+Select a weapon to upgrade
+選擇一件武器來升級
+you reforged the short sword to upgrade your %s
+你重鑄這把短劍升級了你的%s
+you can't upgrade a boomerang this way
+你不能用這種方式來升級回旋鏢
+It is indeed quite short, just a few inches longer, than a dagger.
+它的確是一把相當短、甚至只比匕首稍長寸許的短劍。
+
+spear
+長槍
+A slender wooden rod tipped with sharpened iron.
+尖端裝上鋒利鐵錐的細長木桿。
+
+sword
+劍
+The razor-sharp length of steel blade shines reassuringly.
+鋒利的鋼刃閃閃發光令人心安。
+
+war hammer
+戰錘
+Few creatures can withstand the crushing blow of this towering mass of lead and steel, but only the strongest of adventurers can use it effectively.
+很少有生物能夠承受這把鉛與鋼鍛造的沈重鈍器的碾壓性打擊，但也只有那些最強壯的冒險者才能自如地揮動它。
+
+Missile weapon
+投擲武器
+
+Yes, I know what I'm doing
+是的，我明白自己在做什麼
+No, I changed my mind
+不，我改變注意了
+Do you really want to equip it as a melee weapon?
+你真的要把它作為近戰武器裝備嗎？
+
+boomerang
+回旋鏢
+Thrown to the enemy this flat curved wooden missile will return to the hands of its thrower.
+將它扔向敵人這把削平的木質飛鏢會自動回到投擲者的手中。
+
+curare dart
+毒標槍
+These little evil darts don't do much damage but they can paralyze the target leaving it helpless and motionless for some time.
+這些惡毒的小飛鏢造成不了多少傷害，但卻能夠讓目標麻痹，使其在一段時間內都無助地陷在原地無法移動。
+
+dart
+標槍
+These simple metal spikes are weighted to fly true and sting their prey with a flick of the wrist.
+這些簡單的金屬尖刺經過配重平衡能夠精確地飛行，手腕一抖便能按你的意志飛向目標。
+
+incendiary dart
+火焰標槍
+The spike on each of these darts is designed to pin it to its target while the unstable compounds strapped to its length burst into brilliant flames.
+這些飛鏢上的尖刺會在命中時釘入目標同時附在飛鏢上的不穩定化合物會爆炸點燃火焰。
+
+javelin
+投槍
+This length of metal is weighted to keep the spike at its tip foremost as it sails through the air.
+這把金屬桿經過配重平衡能夠讓它的尖錐穩穩保持在前，刺破空氣飛向目標。
+
+shuriken
+手裏劍
+Star-shaped pieces of metal with razor-sharp blades do significant damage when they hit a target. They can be thrown at very high rate.
+帶有利刃的星形鐵片，在命中目標時能夠造成可觀的傷害。它們能夠以很高的頻率丟擲。
+
+tomahawk
+手斧
+This throwing axe is not that heavy, but it still requires significant strength to be used effectively.
+這種用來投擲的斧頭並不沈重，但要想自如地使用它依然需要可觀的力量。
+
+
+# Armors
+
+Interaction of different types of magic has erased the glyph on this armor!
+不同類型的魔力干擾使得護甲符文失去了效力。
+your %s constricts around you painfully
+你感到你的%s緊緊包在身上，疼痛難忍。
+
+
+This %s provides damage absorption up to %d points per attack.
+這件%s在每次抵擋攻擊時能夠吸收%d點傷害。
+Because of your inadequate strength your movement speed and defense skill is decreased. 
+由於你的力量不足因此移動速度和防禦技巧都下降了。
+Because of your inadequate strength wearing this armor will decrease your movement speed and defense skill. 
+由於你的力量不足這件護甲會使你的移動速度和防禦技巧下降。
+Typical %s provides damage absorption up to %d points per attack and requires %d points of strength. 
+一般來說%s在每次抵擋攻擊時能夠吸收點%d傷害，並且穿戴它需要%d點力量。
+Probably this armor is too heavy for you. 
+或許這件護甲對你來說過於沈重。
+It is inscribed.
+它上面鐫刻著符文。
+You are wearing the %s, and because it is cursed, you are powerless to remove it.
+你正穿著%s，由於它被詛咒了，所以你沒辦法脫下它。
+You are wearing the %s.
+你正穿著%s。
+You can feel a malevolent magic lurking within the %s
+你感到%s中蘊藏著惡毒的魔法
+
+Your health is too low!
+你的生命值過低！
+You need to be wearing this armor to use its special power!
+你需要穿上這件護甲才能發動特殊能力！
+The thing looks awesome!
+這東西看起來無與倫比！
+
+cloth armor
+布甲
+This lightweight armor offers basic protection.
+這件單薄的護甲能夠提供基本的防護。
+leather armor
+皮甲
+Armor made from tanned monster hide. Not as light as cloth armor but provides better protection.
+使用鞣制怪物皮製成的護甲。比布甲稍沈但防護效果也更好。
+mail armor
+鏈甲
+Interlocking metal links make for a tough but flexible suit of armor.
+鐵片相連製成的護甲，堅韌而富彈性。
+scale armor
+鱗甲
+The metal scales sewn onto a leather vest create a flexible, yet protective armor.
+將金屬鱗片縫進皮革製成的兼顧彈性與防護性能的護甲。
+plate armor
+板甲
+Enormous plates of metal are joined together into a suit that provides unmatched protection to any adventurer strong enough to bear its staggering weight.
+使用大量金屬板打造而成，為能夠承受得了它那驚人分量的冒險者提供無可比擬的防護。
+
+warrior suit of armor
+戰士鎧甲
+Only warriors can use this armor!
+只有戰士才能穿上這種護甲！
+HEROIC LEAP
+英勇跳躍
+While this armor looks heavy, it allows a warrior to perform heroic leap towards a targeted location, slamming down to stun all neighbouring enemies.
+雖然這副鎧甲看起來非常沈重，但它能讓穿上它的戰士凌空躍起、跳向目標位置，並轟然落地、震暈附近所有的敵人。
+Choose direction to leap
+選擇跳躍方向
+
+mage robe
+法師長袍
+Only mages can use this armor!
+只有法師才能穿上這種護甲！
+MOLTEN EARTH
+業火地幔
+Wearing this gorgeous robe, a mage can cast a spell of molten earth: all the enemies in his field of view will be set on fire and unable to move at the same time.
+穿上這件奢華的法袍的法師能夠放出業火地幔：他視野中所有的怪物都會動彈不得，烈火焚身。
+
+rogue garb
+遊俠套裝
+You can only jump to an empty location in your field of view
+你只能跳往視野中的空地
+Only rogues can use this armor!
+只有遊俠才能穿上這種護甲！
+SMOKE BOMB
+煙霧彈
+Wearing this dark garb, a rogue can perform a trick, that is called "smoke bomb" (though no real explosives are used): he blinds enemies who could see him and jumps aside.
+穿上套裝後的遊俠能夠耍一個名為煙霧彈的小把戲（儘管確實會造成真正的爆炸）：他會弄瞎所有看見他的人並跳往其他地方。
+Choose a location to jump to
+選擇跳躍位置
+
+huntress cloak
+女獵披風
+No enemies in sight
+視野裡未發現敵蹤
+Only huntresses can use this armor!
+只有女獵才能穿上這種護甲！
+SPECTRAL BLADES
+靈能之刃
+A huntress in such cloak can create a fan of spectral blades. Each of these blades will target a single enemy in the huntress's field of view, inflicting damage depending on her currently equipped melee weapon.
+戴上披風後的女獵能夠發出扇狀的靈能之刃。每一片刀刃都能獨自鎖定一名女獵視野中的敵人，造成的傷害則取決於女獵當前裝備的近戰武器。
+
+deferred %d
+延緩%d
+Defered damage (%d)
+延緩傷害%d
+%s killed you...
+%s殺死了你...
+
+%s of viscosity
+粘稠%s
+%s of stench
+惡臭%s
+%s of potential
+潛能%s
+%s of multiplicity
+分身%s
+%s of entanglement
+纏結%s
+%s of metabolism
+代謝%s
+%s of displacement
+置換%s
+%s of bounce
+反彈%s
+%s of anti-entropy
+反熵%s
+%s of affection
+魅惑%s
+%s of auto-repair
+自動修理%s
+
+# Wand
+
+ZAP
+釋術
+Choose direction to zap
+選擇釋放法術的方向
+This thin %s wand is warm to the touch. Who knows what it will do when used?
+這把%s魔杖握起來非常溫暖。誰知道它使用時會有什麼樣的效果呢？
+When this wand is used as a melee weapon, its average damage is %d points per hit.
+當作為近戰武器使用時，它的平均傷害為每擊%d點。
+You can use this wand as a melee weapon.
+你可以將這把魔杖作為近戰武器使用。
+your wand fizzles; it must be out of charges for now
+你的魔杖嘶嘶作響；一定是耗光了能量。
+You can't target yourself
+你不能以自己為目標
+You are now familiar enough with your %s.
+你現在足夠熟悉你的%s。
+
+Wand
+魔杖
+%s wand
+%s魔杖
+
+holly
+冬青
+yew
+紫杉
+ebony
+黑檀
+cherry
+櫻木
+teak
+刺槐木
+rowan
+花楸木
+willow
+柳木
+mahogany
+紅木
+bamboo
+竹
+purpleheart
+紫芯木
+oak
+橡木
+birch
+樺木
+
+Wand of Amok
+狂亂魔杖
+nothing happened
+什麼事都沒有發生
+The purple light from this wand will make the target run amok attacking random creatures in its vicinity.
+魔杖發出的紫色光芒能夠讓目標陷入狂亂隨機攻擊附近的生物。
+
+Wand of Avalanche
+崩塌魔杖
+You killed yourself with your own Wand of Avalanche...
+你使用崩塌魔杖殺死了自己。
+When a discharge of this wand hits a wall (or any other solid obstacle) it causes an avalanche of stones, damaging and stunning all creatures in the affected area.
+魔杖釋放的魔彈碰到牆壁或別的固定物時會造成土石崩塌，傷害並暈眩附近受影響區域的所有生物。
+
+Wand of Blink
+瞬移魔杖
+This wand will allow you to teleport in the chosen direction. Creatures and inanimate obstructions will block the teleportation.
+這把魔杖能夠將你朝指定方向傳送。生物或無法移動的屏障會阻擋傳送。
+
+Wand of Disintegration
+裂解魔杖
+This wand emits a beam of destructive energy, which pierces all creatures in its way. The more targets it hits, the more damage it inflicts to each of them.
+這把魔杖發出一道毀滅性的能量，穿透所有途經的生物。它擊中的目標越多，對每個目標造成的傷害就越大。
+
+Wand of Firebolt
+火球魔杖
+You killed yourself with your own Wand of Firebolt...
+你使用火球魔杖殺死了自己。
+This wand unleashes bursts of magical fire. It will ignite flammable terrain, and will damage and burn a creature it hits.
+這把魔杖發出一道魔力火焰，能夠引燃可燃地形,並傷害和點燃擊中的生物。
+
+Wand of Flock
+羊群魔杖
+A flick of this wand summons a flock of magic sheep, creating temporary impenetrable obstacle.
+這把魔杖能夠召喚出一群魔法綿羊，製造出無法通過的臨時屏障。
+sheep
+綿羊
+Baa!
+咩！
+Baa?
+咩？
+Baa.
+咩。
+Baa...
+咩...
+This is a magic sheep. What's so magical about it? You can't kill it. It will stand there until it magcially fades away, all the while chewing cud with a blank stare.
+這是一隻魔法綿羊。它有什麼神奇的地方呢？你無法殺死它，直到它自己神奇地消失，一邊咀嚼反芻的食物一邊用那茫然的眼神盯著你。
+
+Wand of Lightning
+閃電魔杖
+You killed yourself with your own Wand of Lightning...
+你使用閃電魔杖殺死了自己。
+This wand conjures forth deadly arcs of electricity, which deal damage to several creatures standing close to each other.
+這把魔杖向前放出一道致命的電弧，能夠對相鄰而站的一群生物造成傷害。
+
+Wand of Magic Missile
+魔彈魔杖
+You killed yourself with your own Wand of Magic Missile...
+你使用魔彈魔杖殺死了自己。
+This wand launches missiles of pure magical energy, dealing moderate damage to a target creature.
+這把魔杖能夠發出純淨魔力構成的魔彈，對目標生物造成一定的傷害。
+DISENCHANT
+祛魔
+Select a wand to upgrade
+選擇一柄魔杖來升級
+you disenchanted the Wand of Magic Missile and used its essence to upgrade your %s
+你祛除了魔彈魔杖的魔力並用它來升級你的%s
+
+Wand of Poison
+毒咒魔杖
+The vile blast of this twisted bit of wood will imbue its target with a deadly venom. A creature that is poisoned will suffer periodic damage until the effect ends. The duration of the effect increases with the level of the staff.
+這把有些扭曲的魔杖釋放的惡毒魔力能夠讓目標染上致命毒素。中毒的生物在效果結束前會持續掉血。效果持續時間隨著魔杖等級的提升而延長。
+
+Wand of Reach
+接觸魔杖
+This utility wand can be used to grab objects from a distance and to switch places with enemies. Waves of magic force radiated from it will affect all cells on their way triggering traps, trampling high vegetation, opening closed doors and closing open ones.
+這個工具魔杖可用於抓取從遠處的物體，並與敵人互換位置。這把魔杖發出的魔力波動能夠影響它途徑的所有地方，觸發陷阱，踐踏草木，開門或者關門。
+
+Wand of Regrowth
+蔓生魔杖
+"When life ceases new life always begins to grow... The eternal cycle always remains!"
+"當一個生命休止，新的生命就會開始萌芽...永恆的循環一直保持著！"
+
+Wand of Slowness
+減速魔杖
+This wand will cause a creature to move and attack at half its ordinary speed until the effect ends
+這把魔杖能夠讓生物移動和攻擊速度在效果結束前都減半。
+
+Wand of Telekinesis
+念動魔杖
+You have magically transported %s into your backpack
+你神奇地將%s傳送到了背包中
+Waves of magic force from this wand will affect all cells on their way triggering traps, trampling high vegetation, opening closed doors and closing open ones. They also push back monsters.
+這把魔杖發出的魔力波動能夠影響它途徑的所有地方，觸發陷阱，踐踏草木，開門或者關門。還能將怪物推向後方。
+
+Wand of Teleportation
+傳送魔杖
+A blast from this wand will teleport a creature against its will to a random place on the current level.
+這把魔杖釋放出的魔力能夠將生物不受意志驅使地隨機傳送到這層的某個地方。
+%s teleported %s to somewhere
+%s將%s傳送到了某處
+
+# Scroll
+
+Select an item
+選擇一個物品
+
+Do you really want to cancel this scroll usage? It will be consumed anyway.
+你真的想要撤銷卷軸效果嗎？即使如此它還是會被消耗掉。
+
+Yes, I'm positive
+是的，我確定
+No, I changed my mind
+不，我改主意了
+
+You can't read a scroll while blinded
+眼盲時你無法閱讀卷軸
+READ
+閱讀
+
+KAUNAN
+審判
+SOWILO
+太陽
+LAGUZ
+星星
+YNGVI
+命運之輪
+GYFU
+戀人
+RAIDO
+隱者
+ISAZ
+月亮
+MANNAZ
+愚者
+NAUDIZ
+惡魔
+BERKANAN
+教皇
+ODAL
+女祭司
+TIWAZ
+國王
+
+This parchment is covered with indecipherable writing, and bears a title of rune %s. Who knows what it will do when read aloud?
+這張卷軸上寫滿難以辨認的文字，並鐫刻著象徵著%s的盧恩符文。誰知道如果大聲把它念出來會發生什麼呢？
+
+Scroll of Challenge
+挑戰卷軸
+The scroll emits a challenging roar that echoes throughout the dungeon!
+這張卷軸發出了挑釁的咆哮聲，久久回蕩在地牢中！
+When read aloud, this scroll will unleash a challenging roar that will awaken all monsters and alert them to the reader's location.
+大聲閱讀這張卷軸會發出挑釁的咆哮聲，喚醒這一層所有的怪物並吸引它們前往閱讀者的位置。
+
+your %s glows in the dark
+你的%s在黑暗中發光
+
+Scroll of Enchantment
+魅力卷軸
+
+Select an enchantable item
+選擇一個魅力物品
+
+This scroll is able to imbue a weapon or an armor with a random enchantment, granting it a special power.
+這卷軸可以隨意魔法化一件武器或護甲，並賦予其特殊力量
+
+Scroll of Identify
+鑒定卷軸
+Select an item to identify
+選擇一件物品來鑒定
+It is %s
+它其實是%s
+Permanently reveals all of the secrets of a single item.
+永久揭曉某個物品的全部秘密。
+
+Scroll of Lullaby
+催眠卷軸
+The scroll utters a soothing melody.
+卷軸發出了一段柔和的樂音。
+The scroll utters a soothing melody and the %s falls asleep!
+卷軸發出一段柔和的旋律，使得%s陷入了昏睡！
+The scroll utters a soothing melody and the monsters fall asleep!
+卷軸發出一段柔和的旋律，頓時怪物們都陷入了昏睡！
+A soothing melody will put all creatures in your field of view into a deep sleep, giving you a chance to flee or make a surprise attack on them.
+一段柔美的旋律會讓你視野內出現的所有生物都陷入深度睡眠，讓你有機會逃脫或者發起突襲。
+
+Scroll of Magic Mapping
+魔法地圖卷軸
+You are now aware of the level layout.
+你現在知曉了這一層的房間佈局。
+When this scroll is read, an image of crystal clarity will be etched into your memory, alerting you to the precise layout of the level and revealing all hidden secrets. The locations of items and creatures will remain unknown.
+閱讀這卷軸時，一段晶瑩清晰的印象會開始鐫刻入你的腦海裡，讓你明瞭這層房間的精確佈局並洞察所有隱藏的秘密。不過其他生物和物品的位置依舊保持未知。
+
+Scroll of Mirror Image
+鏡像卷軸
+The incantation on this scroll will create illusionary twins of the reader, which will chase his enemies.
+這張卷軸上的咒語能夠創作出閱讀者的幻影分身，這些分身將會追逐敵人發起進攻。
+
+Scroll of Psionic Blast
+靈能爆破卷軸
+This scroll contains destructive energy, that can be psionically channeled to inflict a massive damage to all creatures within a field of view. An accompanying flash of light will temporarily blind everybody in the area of effect including the reader of the scroll.
+這張卷軸蘊含著毀滅性的能量，通過靈能引導能夠對視野裡的所有生物（除閱讀者外）造成巨大的傷害，伴隨而來的強烈閃光則會使範圍內的所有生物眼盲，即使閱讀者本身亦無法幸免。
+
+Scroll of Recharging
+充能卷軸
+a surge of energy courses through your pack, recharging your wand
+一股能量流湧向背包，為你的魔杖恢復了充能
+a surge of energy courses through your pack, recharging your wands
+一股能量流湧向背包，為你的魔杖恢復了充能
+a surge of energy courses through your pack, but nothing happens
+一股能量流湧向背包，但什麼事也沒有發生
+The raw magical power bound up in this parchment will, when released, recharge all of the reader's wands to full power.
+一股天然的魔力被束縛在卷軸之中，釋放時它能夠使得閱讀者所有的魔杖完全恢復充能。
+
+Scroll of Remove Curse
+解除詛咒卷軸
+Your pack glows with a cleansing light, and a malevolent energy disperses.
+你的背包散髮出淨化的光芒，惡毒的魔力煙消雲散。
+Your pack glows with a cleansing light, but nothing happens.
+你的背包散髮出淨化的光芒，但什麼事也沒有發生
+The incantation on this scroll will instantly strip from the reader's weapon, armor, rings and carried items any evil enchantments that might prevent the wearer from removing them.
+這張卷軸上的咒語能夠直接淨化閱讀者所攜帶的武器，護甲，戒指等所有物品所蘊含的邪惡魔力，使得穿戴它們的人可以輕易將它們脫下來。
+
+Scroll of Teleportation
+傳送卷軸
+In a blink of an eye you were teleported to another location of the level.
+一眨眼你就被傳送到了這一層的另外一處。
+Strong magic aura of this place prevents you from teleporting!
+這地方的強烈魔法波動讓你無法進行傳送！
+The spell on this parchment instantly transports the reader to a random location on the dungeon level. It can be used to escape a dangerous situation, but the unlucky reader might find himself in an even more dangerous place.
+卷軸上記錄的咒語能夠直接將閱讀者傳送到這一層地牢的某個隨機位置。它可以用於逃離危險的處境，但倒霉的話或許剛出狼穴又入虎口，發現自己到了更加危險的地方。
+
+Scroll of Terror
+恐慌卷軸
+The scroll emits a brilliant flash of red light
+這張卷軸射出紅色耀眼光芒
+The scroll emits a brilliant flash of red light and the %s flees!
+這張卷軸射出紅色耀眼光芒，嚇得%s四處逃竄！
+The scroll emits a brilliant flash of red light and the monsters flee!
+這張卷軸射出紅色耀眼光芒，嚇得怪物四處逃竄！
+A flash of red light will overwhelm all creatures in your field of view with terror, and they will turn and flee. Attacking a fleeing enemy will dispel the effect.
+那紅色閃光能夠壓垮你視野內的所有生物，令它們陷入恐慌，掉頭逃竄。攻擊逃跑的生物會讓它們從恐慌中恢復過來。
+
+Scroll of Upgrade
+升級卷軸
+Select an item to upgrade
+選擇一件物品來升級
+your %s certainly looks better now
+你的%s的品質看上去確實有所提高
+This scroll will upgrade a single item, improving its quality. A wand will increase in power and in number of charges; a weapon will inflict more damage or find its mark more frequently; a suit of armor will deflect additional blows; the effect of a ring on its wearer will intensify. Weapons and armor will also require less strength to use, and any curses on the item will be lifted.
+這張卷軸會升級某件物品，提升它的品質。對魔杖使用能夠提升魔杖的威力和充能次數；對武器使用能夠提升它的傷害和命中率；對護甲使用能夠提升其對傷害的吸收能力；對戒指使用會增幅它的特殊效果。武器和護甲所需的力量也會降低，物品上的詛咒也會被祛除。
+
+Scroll of Wipe Out
+殲滅卷軸
+
+Read this scroll to unleash the wrath of the dungeon spirits, killing everything on the current level. Well, almost everything. Some of the more powerful creatures may be not affected.
+閱讀這個卷軸發動地牢靈魂的憤怒，殺掉目前等級的一切生物。是的，幾乎全部。一些更強大的生物可能不受影響。
+
+# Ring
+
+you are now familiar enough with your %s to identify it. It is %s.
+你現在足夠熟悉你的%s能夠鑒定出它來了。它其實是%s。
+you can only wear 2 rings at a time
+你最多只能同時戴2枚戒指。
+your %s tightens around your finger painfully
+你的%s緊緊箍在指頭上，非常痛。
+This metal band is adorned with a large %s gem that glitters in the darkness. Who knows what effect it has when worn?
+金屬環上鑲著一顆巨大的%s，在黑暗中閃閃發光。誰知道戴上會有什麼效果呢？
+The %s is on your finger.
+你手指上戴著%s。
+The %s is on your finger, and because it is cursed, you are powerless to remove it.
+你手指上戴著%s，因為它被詛咒了，所以你無力摘下它。
+This is a %s
+這其實是%s
+
+%s ring
+%s之戒
+
+diamond
+鑽石
+opal
+蛋白石
+garnet
+石榴石
+ruby
+紅寶石
+amethyst
+紫晶
+topaz
+黃玉
+onyx
+黑瑪瑙
+tourmaline
+碧璽
+emerald
+祖母綠
+sapphire
+藍寶石
+quartz
+石英
+
+Ring of Accuracy
+精準之戒
+This ring increases your chance to hit the enemy.
+這枚戒指能夠提升你的命中率。
+
+Ring of Detection
+偵測之戒
+Wearing this ring will allow the wearer to notice hidden secrets - traps and secret doors - without taking time to search. Degraded rings of detection will dull your senses, making it harder to notice secrets even when actively searching for them.
+戴上這枚戒指的人能夠無需花費時間搜查便能夠更加容易地留意到隱藏的秘密 - 陷阱和秘密的門。降級的偵測之戒會讓感知變得遲鈍，即使主動去搜尋，也會變得更難發現那些隱藏的秘密。
+
+Ring of Elements
+元素之戒
+This ring provides resistance to different elements, such as fire, electricity, gases etc. Also it decreases duration of negative effects.
+這枚戒指能夠提供對不同類型的元素能量的抗性，例如火焰，閃電，毒氣等。同時它會減少負面效果的持續時間。
+
+Ring of Evasion
+閃避之戒
+This ring increases your chance to dodge enemy attack.
+這枚戒指能夠提升你的閃避率。
+
+Ring of Haggler
+折扣之戒
+In fact this ring doesn't provide any magic effect, but it demonstrates to shopkeepers and vendors, that the owner of the ring is a member of The Thieves' Guild. Usually they are glad to give a discount in exchange for temporary immunity guarantee. Upgrading this ring won't give any additional bonuses.
+實際上這枚戒指並沒有什麼魔法效果，但它可以用作向店主和供貨商出示的憑證，證明它的主人隸屬於盜賊公會。通常他們很樂於提供一些折扣來作為上繳的保護費。升級這枚戒指不會獲得額外的效果。
+
+Ring of Haste
+迅疾之戒
+This ring accelerates the wearer's flow of time, allowing one to perform all actions a little faster.
+這枚戒指增加穿戴者身體周圍的時間流速，讓他的所有行動都變得稍快一些。
+
+Ring of Herbalism
+草藥之戒
+This ring increases your chance to gather dew and seeds from trampled grass.
+這枚戒指增加你從被踐踏的草地中搜集露珠和種子的機率。
+
+Ring of Mending
+回復之戒
+This ring increases the body's regenerative properties, allowing one to recover lost health at an accelerated rate. Degraded rings will decrease or even halt one's natural regeneration.
+這枚戒指能夠賦予身體癒合的能力，讓穿戴者更快地回復生命值。降級的戒指會讓身體自癒速度減慢甚至停止。
+
+Ring of Power
+威能之戒
+Your wands will become more powerful in the energy field that radiates from this ring. Degraded rings of power will instead weaken your wands.
+在戒指釋放的能量場中你的魔杖威力將更加巨大。降級的戒指則會削弱魔杖的威能。
+
+Ring of Satiety
+饜足之戒
+Wearing this ring you can go without food longer. Degraded rings of satiety will cause the opposite effect.
+戴上這枚戒指不吃東西可以堅持得更久。降級的饜足之戒則會造成相反的效果。
+
+Ring of Shadows
+暗影之戒
+Enemies will be less likely to notice you if you wear this ring. Degraded rings of shadows will alert enemies who might otherwise not have noticed your presence.
+戴上這枚戒指能夠讓敵人很難留意到你，降級的暗影之戒則會讓本不會注意到你的敵人發現你。
+
+Ring of Thorns
+荊棘之戒
+Though this ring doesn't provide real thorns, an enemy that attacks you will itself be wounded by a fraction of the damage that it inflicts. Upgrading this ring won't give any additional bonuses.
+儘管這枚戒指並不會放出真正的荊棘，但當敵人攻擊你時它自己也會受到一部分反擊。升級這枚戒指不會獲得任何額外效果。
+
+# Quest
+
+corpse dust
+黃泉土
+The ball of corpse dust doesn't differ outwardly from a regular dust ball. However, you know somehow that it's better to get rid of it as soon as possible.
+這團黃泉土外表上很難和別的土球區分開來。然而你知道某種程度上來說這玩意兒應該丟得越遠越好。
+
+dark gold ore
+暗金礦
+This metal is called dark not because of its color (it doesn't differ from the normal gold), but because it melts under the daylight, making it useless on the surface.
+這種金屬名中雖然帶暗字但並非指顏色（看起來它和普通的黃金一樣），但由於它會在陽光下融化，因此在地表沒什麼用。
+
+dried rose
+枯萎玫瑰
+The rose has dried long ago, but it has kept all its petals somehow.
+乾枯已久的玫瑰，但不知為何所有花瓣依然保留。
+
+dwarf token
+矮人標記
+Many dwarves and some of their larger creations carry these small pieces of metal of unknown purpose. Maybe they are jewelry or maybe some kind of ID. Dwarves are strange folk.
+許多矮人和矮人製造的大塊頭生物都會隨身攜帶這種意味不明的小金屬片。或許是珠寶首飾，或許是身份證明。矮人真是一群奇怪的傢伙。
+
+pickaxe
+鋤頭
+MINE
+挖掘
+There is no dark gold vein near you to mine
+這裡沒有暗金礦脈可挖
+This is a large and sturdy tool for breaking rocks. Probably it can be used as a weapon.
+這是一把巨大而堅固的用於破壞岩石的工具。或許它也能當武器來用。
+
+phantom fish
+幻影魚
+You see your hands turn invisible!
+你看你的雙手變透明了!
+You can barely see this tiny translucent fish in the air. In the water it becomes effectively invisible
+在空中你幾乎看不到這微小半透明的魚，但在水中它就變成無形
+
+giant rat skull
+巨鼬骷髏
+It could be a nice hunting trophy, but it smells too bad to place it on a wall.
+它本可以作為很好的狩獵紀念物，可是聞起來太噁心，不好掛在牆上。
+
+
+# Potions
+
+DRINK
+飲用
+Harmful potion!
+有害藥水！
+Beneficial potion
+有益藥水
+Yes, I know what I'm doing
+是的，我知道自己在做什麼
+No, I changed my mind
+不，我改變注意了
+Are you sure you want to drink it? In most cases you should throw such potions at your enemies.
+你確定想要喝下它嗎？大部分時候你應該將這藥水丟向你的敵人。
+Are you sure you want to throw it? In most cases it makes sense to drink it.
+你確定想要扔出它嗎？一般來說喝下它才能發揮它的效果。
+The flask shatters and %s liquid splashes harmlessly
+藥品碎開了，那%s色的液體濺射開來，並沒有毒害
+potion
+藥水
+This flask contains a swirling %s liquid. Who knows what it will do when drunk or thrown?
+瓶裡盛著打著漩渦的%s色液體。誰知道飲用它或者扔出它會發生什麼呢？
+
+%s potion
+%s藥水
+
+turquoise
+翠綠
+crimson
+猩紅
+azure
+蔚藍
+jade
+翡翠
+golden
+黃金
+magenta
+品紅
+charcoal
+炭黑
+ivory
+乳白
+amber
+琥珀
+bistre
+赭黃
+indigo
+靛藍
+silver
+銀白
+
+Potion of Experience
+經驗藥水
+The storied experiences of multitudes of battles reduced to liquid form, this draught will instantly raise your experience level.
+屢次上戰場累積的經驗凝聚成液態製成的藥水，喝下它能夠直接提升你的等級。
+
+Potion of Frost
+霜凍藥水
+Upon exposure to open air this chemical will evaporate into a freezing cloud, causing any creature that contacts it to be frozen in place unable to act and move.
+一旦暴露在空氣中這些化學物質會迅速揮發形成一片霜凍的氣雲，冰凍與之接觸的生物，使之動彈不得。
+
+Potion of Healing
+治療藥水
+Your wounds heal completely.
+你的傷口完全癒合了。
+An elixir that will instantly return you to full health and cure poison.
+這種藥水能夠完全回復生命值並治癒中毒效果。
+
+Potion of Invisibility
+隱形藥水
+You see your hands turn invisible!
+你看見自己的手消失了！
+Drinking this potion will render you temporarily invisible. While invisible, enemies will be unable to see you. Attacking an enemy, as well as using a wand or a scroll before enemy's eyes, will dispel the effect.
+喝下這瓶藥水會隱形一段時間，隱形時敵人無法發現你。在敵人面前發起攻擊或者使用卷軸會讓隱形效果提前解除。
+
+Potion of Levitation
+懸浮藥水
+You float into the air!
+你浮到了半空中！
+Drinking this curious liquid will cause you to hover in the air, able to drift effortlessly over traps. Flames and gases fill the air, however, and cannot be bypassed while airborne.
+喝下這瓶神奇的藥水能夠讓你盤旋在半空中，不觸發陷阱效果而越過。然而火焰和氣體會瀰漫到整個空間，因此在空中也不能豁免其效果。
+
+Potion of Liquid Flame
+液態火焰藥水
+This flask contains an unstable compound which will burst violently into flame upon exposure to open air.
+瓶中盛放著不穩定的化合物，一旦暴露在空氣中會劇烈地爆開燃起一團烈焰。
+
+Potion of Might
+根骨藥水
++1 str, +5 ht
++1 力量， +5 生命
+Newfound strength surges through your body.
+力量源源不斷湧向全身。
+This powerful liquid will course through your muscles, permanently increasing your strength by one point and health by five points.
+這瓶強大的藥水能夠滲入你的肌肉，永久提升你的力量1點，生命值5點。
+
+Potion of Mind Vision
+靈視藥水
+You can somehow feel the presence of other creatures' minds!
+你似乎感覺到這裡有別的生物的腦波.
+You can somehow tell that you are alone on this level at the moment.
+你似乎能夠察覺到現在這一層只有你獨自一人.
+After drinking this, your mind will become attuned to the psychic signature of distant creatures, enabling you to sense biological presences through walls. Also this potion will permit you to see through nearby walls and doors.
+喝下這瓶藥水後，你的意識將能夠與隔得很遠的生物的精神烙印諧振，從而讓你獲得透過牆識別生物是否存在的能力。此外這瓶藥水還賦予你透過牆壁和門感覺到後面東西的能力。
+
+Potion of Paralytic Gas
+麻痹氣體藥水
+Upon exposure to open air, the liquid in this flask will vaporize into a numbing yellow haze. Anyone who inhales the cloud will be paralyzed instantly, unable to move for some time after the cloud dissipates. This item can be thrown at distant enemies to catch them within the effect of the gas.
+一旦暴露在空氣中，瓶中的液體就會蒸發掉變成一團黃色的麻痹氣雲。任何接觸到氣雲的人都會立即被麻痹，一段時間內動彈不得，直到氣體消散。可以遠距離投擲該物品讓敵人陷入氣雲的效果範圍內。
+
+Potion of Purification
+淨化藥水
+You feel uncommon freshness in the air.
+你感覺到空氣不同尋常的新鮮。
+You've stopped sensing any smells!
+你暫時失去了嗅覺！
+This reagent will quickly neutralize all harmful gases in the area of effect. Drinking it will give you a temporary immunity to such gases.
+這瓶藥水能快速地中和效果範圍內的所有有害氣體。喝下它則能夠暫時豁免所有的毒氣效果。
+
+Potion of Strength
+力量藥水
++1 str
++1 力量
+Newfound strength surges through your body.
+力量源源不斷湧向全身.
+This powerful liquid will course through your muscles, permanently increasing your strength by one point.
+這瓶強大的藥水能夠滲入你的肌肉，永久提升你的力量1點。
+
+Potion of Toxic Gas
+劇毒氣體藥水
+Uncorking or shattering this pressurized glass will cause its contents to explode into a deadly cloud of toxic green gas. You might choose to fling this potion at distant enemies instead of uncorking it by hand.
+開啓或摔碎這個增壓過的玻璃瓶會釋放出它盛裝的藥水，使之爆裂成一團致命的綠色毒雲。你應該試著將它遠距離丟向敵人而非親手拔開瓶塞。
+
+
+# Keys
+
+skeleton key
+骷髏鑰匙
+This key looks serious: its head is shaped like a skull. Probably it can open some serious door.
+這把鑰匙看起來非常肅穆：鑰匙頭部形如骷髏。或許它用於開啓某些重要的門。
+
+Key ring
+鑰匙圈
+This is a copper key ring, that lets you keep all your keys separately from the rest of your belongings.
+一串黃銅鑰匙圈。它可以將你所有的鑰匙與其他東西獨立存放。
+
+iron key
+鐵鑰匙
+The notches on this ancient iron key are well worn；its leather lanyard is battered by age. What door might it open?
+這把古老的鐵鑰匙上的缺口磨損地相當厲害；年代久遠它的皮繩也陳舊不堪。它能開啓哪一扇門呢？
+iron key from depth %d
+用於第%d層的鐵鑰匙
+golden key
+金鑰匙
+The notches on this golden key are tiny and intricate. Maybe it can open some chest lock?
+這把金鑰匙上的刻痕精細複雜。或許它能打開某個上鎖的箱子？
+
+# Foods
+
+EAT
+吃下
+That food tasted delicious!
+這種食物非常美味！
+ration of food
+乾糧
+Nothing fancy here: dried meat, some biscuits - things like that.
+沒什麼值得特別一提的：肉乾，一些小餅乾 - 諸如此類。
+
+pasty
+餡餅
+This is authentic Cornish pasty with traditional filling of beef and potato.
+正宗的康沃爾餡餅，按傳統填滿了牛肉和馬鈴薯。
+
+overpriced food ration
+昂貴乾糧
+That food tasted ok.
+味道不錯。
+It looks exactly like a standard ration of food but smaller.
+看起來很像標準的乾糧但份量更少。
+
+mystery meat
+神秘肉
+That food tasted... strange.
+口感略...詭異。
+Oh it's hot!
+啊，好燙！
+You can't feel your legs!
+你的腿動彈不得！
+You are not feeling well.
+你感覺不太舒服。
+You are stuffed.
+你感覺很飽。
+Eat at your own risk!
+不怕死你就吃！
+
+frozen carpaccio
+凍肉
+You see your hands turn invisible!
+你看見自己的手消失了！
+You feel your skin hardens!
+你感覺自己的皮膚變硬了！
+Refreshing!
+神清氣爽！
+You feel better!
+你感覺好多了！
+It's a piece of frozen raw meat. The only way to eat it is by cutting thin slices of it. And this way it's suprisingly good.
+一片凍生肉。只能切成小條來吃。這麼吃味道好極了。
+
+chargrilled meat
+炭燒肉排
+It looks like a decent steak.
+看起來蠻不錯的肉排。
+
+
+# Bags
+
+OPEN
+開啓
+
+wand holster
+魔杖皮套
+This slim holder is made of leather of some exotic animal. It allows to compactly carry up to 12 wands.
+這種柔軟的皮套是用某種異域生物的皮做的。它能夠緊湊地裝入12支魔杖。
+
+seed pouch
+種子袋
+This small velvet pouch allows you to store any number of seeds in it. Very convenient.
+這只天鵝絨的小口袋能夠用於存放各類種子。非常方便。
+
+scroll holder
+卷軸筒
+You can place any number of scrolls into this tubular container. It saves room in your backpack and protects scrolls from fire.
+你可以把許多卷軸放進這個管狀容器保存。它能夠節約背包空間，並且讓卷軸不會被火燒到。
+
+
+# Terrains
+
+Chasm
+深淵
+You can't see the bottom.
+深不見底
+Do you really want to jump into the chasm? You can probably die.
+你真的想要跳下深淵？可能會摔死的。
+You fell to death...
+你摔死了...
+Floor
+地板
+Grass
+草地
+Water
+水塘
+In case of burning step into the water to extinguish the fire.
+萬一著火了可以跳進水裡撲滅火焰。
+Wall
+牆壁
+Closed door
+緊閉的門
+Open door
+敞開的門
+Depth entrance
+本層入口
+Depth exit
+本層出口
+Stairs lead up to the upper depth.
+通向上一層地牢的樓梯。
+Stairs lead down to the lower depth.
+通向下一層地牢的樓梯。
+The ladder leads up to the upper depth.
+通往上一層地牢的梯子。
+The ladder leads down to the lower depth.
+通往下一層地牢的梯子。
+A ramp leads up to the upper depth.
+通往上一層地牢的斜坡。
+A ramp leads down to the lower depth.
+通往下一層地牢的斜坡。
+Embers
+餘燼
+Embers cover the floor.
+地板上鋪滿灰燼。
+Locked door
+上鎖的門
+This door is locked, you need a matching key to unlock it.
+門鎖著，需要匹配的鑰匙才能打開。
+Pedestal
+底座
+Barricade
+路障
+The wooden barricade is firmly set but has dried over the years. Might it burn?
+木質路障非常牢靠，但過了這麼多年也非常乾燥。或許能把它點燃？
+High grass
+草叢
+Dense vegetation blocks the view.
+茂密的草木遮擋了視線。
+Locked depth exit
+BOSS層上鎖出口
+Heavy bars block the stairs leading down.
+鐵柵欄擋住了通往下層的樓梯。
+Unlocked depth exit
+BOSS層出口
+Sign
+牌子
+You can't read the text from here.
+站在這裡無法閱讀文字。
+Well
+井水
+Empty well
+枯井
+The well has run dry.
+井水已經乾涸了。
+Statue
+雕像
+Someone wanted to adorn this place, but failed, obviously.
+有人曾想要裝飾下這個地方，但效果明顯很差。
+The statue depicts some dwarf standing in a heroic stance.
+雕像展現的是一些矮人擺著英雄造型的情景。
+Toxic gas trap
+劇毒氣體陷阱
+Fire trap
+火焰陷阱
+Paralytic gas trap
+麻痹氣體陷阱
+Poison dart trap
+毒鏢陷阱
+Alarm trap
+警報陷阱
+Lightning trap
+閃電陷阱
+Gripping trap
+獸夾陷阱
+Summoning trap
+召喚陷阱
+Triggered trap
+已觸發陷阱
+Stepping onto a hidden pressure plate will activate the trap.
+踩中隱藏的壓力盤就會觸發陷阱。
+A hidden pressure plate clicks!
+一塊隱藏壓力盤咔咔作響！
+The trap has been triggered before and it's not dangerous anymore.
+陷阱已經被觸發過了，不再危險。
+Bookshelf
+書架
+The bookshelf is packed with cheap useless books. Might it burn?
+書架上放滿了各種便宜沒用的書籍。能不能把它點燃呢？
+This is probably a vestige of a prison library. Might it burn?
+這裡或許是監獄圖書館的遺跡。能不能把它點燃呢？
+The rows of books on different disciplines fill the bookshelf.
+書架上放滿了不同學科的書籍。
+Books in ancient languages smoulder in the bookshelf.
+書架上擺滿古代語寫成的書。
+Alchemy pot
+煉藥釜
+Drop some seeds here to cook a potion.
+把種子丟進去可以煉藥。
+Select a seed to throw
+選擇一顆種子扔出
+Dark cold water。
+黑暗冰冷的水
+There are old blood stains on the floor.
+地板上有一灘陳舊的血跡。
+Murky water
+泥漿
+Wet yellowish moss covers the floor.
+地板上覆蓋著淡黃色的潮濕苔蘚。
+The trap emits a piercing sound that echoes throughout the dungeon!
+陷阱發出了尖銳的嘯聲久久回蕩在地牢中！
+lightning trap
+閃電陷阱
+You were killed by a discharge of a lightning trap...
+你被閃電陷阱釋放的閃電殺死了...
+Fluorescent moss
+螢光蘚
+Fluorescent mushrooms
+螢光菇
+Freezing cold water.
+結冰的冷水。
+Huge mushrooms block the view.
+高大的蘑菇遮住了視線。
+A vein of some ore is visible on the wall. Gold?
+礦脈裸露在岩壁表面。黃金？
+Who would need a bookshelf in a cave?
+山洞裡誰還需要書架呢？
+Suspiciously colored water
+顏色可疑的水
+High blooming flowers
+高大的鮮花
+Several tiles are missing here.
+這裡有些磚塊不見了。
+Thick carpet covers the floor.
+地板上鋪著厚厚的地毯。
+Cold lava
+冷卻岩漿
+It looks like lava, but it's cold and probably safe to touch.
+看起來很像岩漿，但已經冷卻，而且可以觸碰。
+Embermoss
+餘燼蘚
+Emberfungi
+餘燼菇
+Pillar
+柱子
+The pillar is made of real humanoid skulls. Awesome.
+用類人生物的骸骨搭建的柱子，好酷。
+
+
+# INSCRIBE
+scroll
+卷軸
+scroll "%s"
+%s卷軸
+INSCRIBE
+鐫刻
+
+Select a cell to examine
+選擇一個方塊檢查
+Scroll of Weapon Upgrade
+武器升級卷軸
+Mystery meat burns up!
+神秘肉著火了!
+
+# backpack
+backpack
+背包
+Settings
+設定
+
+You don't know what is there.
+你不知道那邊有什麼。
+
+
+Language
+語言
+Please select your language.
+選擇遊戲顯示語言.

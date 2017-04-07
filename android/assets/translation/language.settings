@@ -1,0 +1,7 @@
+lang=cht
+# filename,baseline,scale,pngfile
+font1x=pd1x,6
+font15x=pd15x,10
+font2x=pd2x,12
+font25x=pd25x,18
+font3x=pd3x,22
