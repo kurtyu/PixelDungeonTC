@@ -123,7 +123,7 @@ public class TitleScene extends PixelScene
 
         BitmapText version = createText(6);
         add(version);
-        version.text("ver 1.0.8");
+        version.text("ver 1.0.9");
         version.measure();
         version.x = w - version.width() - 5;
         version.y = h - version.height();

@@ -111,7 +111,7 @@ public class AndroidLauncher extends AndroidApplication
     private void launch(AndroidApplicationConfiguration config)
     {
         getDefaultTracker();
-        initialize(new PixelDungeon(new PDPlatformSupport<>("1.0.3", "pdtc/", new AndroidInputProcessor(this))), config);
+        initialize(new PixelDungeon(new PDPlatformSupport<>("1.0.3", "Documents/pixeldungeon.tc/saves/", new AndroidInputProcessor(this))), config);
     }
 
 
