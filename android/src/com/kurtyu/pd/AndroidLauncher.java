@@ -1,26 +1,12 @@
 package com.kurtyu.pd;
 
 import android.Manifest;
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-//import android.support.v4.app.ActivityCompat;
-//import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-//import com.google.android.gms.common.ConnectionResult;
-//import com.google.android.gms.common.GoogleApiAvailability;
-//import com.kurtyu.IabInterface;
-//import com.kurtyu.util.IabHelper;
-//import com.kurtyu.util.IabResult;
-//import com.kurtyu.util.Inventory;
-//import com.kurtyu.util.Purchase;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 import com.watabou.pixeldungeon.PixelDungeon;
@@ -32,6 +18,7 @@ public class AndroidLauncher extends AndroidApplication
 //    String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmCmvo/aF7JYBoltOGRvI82GYVRWWcMEGc5g7QpxcD4P+kWXV9MG+PxgFaO+f79NydQSqA2NbnfMpvG8fz4SlAEgHwLRkTsSePmedWJ6cEWjMDDhWMj52zg2JR59XuDStk3PwdsKfYgopciDtbKBhGPWBzVFbto+z4o366f5yhpdqMaWlD01UF9z7lIQyAVWb6DSylXvvTyXqA3ZMAFE+2HYs7hTdlNALhzdPsP4JjZlmf/uaLhRHAzlw6MvpC8kmLg8Lupcas8SeHhbG3esqAmasZGykD6Q8kji6dKwjtkLy+dOjhewqGLhECj6QWkdxQkczk5ARiXGkQqFklZO3ZwIDAQAB";
 //    IabHelper mHelper;
 
+    final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
     AndroidApplicationConfiguration config;
     private Tracker mTracker;
 
@@ -87,10 +74,44 @@ public class AndroidLauncher extends AndroidApplication
 
     }
 
+//    private void insertDummyContactWrapper()
+//    {
+//        int hasWriteContactsPermission = checkSelfPermission(Manifest.permission.WRITE_CONTACTS);
+//        if (hasWriteContactsPermission != PackageManager.PERMISSION_GRANTED)
+//        {
+//            requestPermissions(new String[]{Manifest.permission.WRITE_CONTACTS},
+//                    REQUEST_CODE_ASK_PERMISSIONS);
+//            return;
+//        }
+//    }
+
+//    @Override
+//    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults)
+//    {
+//        switch (requestCode)
+//        {
+//            case REQUEST_CODE_ASK_PERMISSIONS:
+//                if (grantResults[0] == PackageManager.PERMISSION_GRANTED)
+//                {
+//                    // Permission Granted
+//
+//                }
+//                else
+//                {
+//                    // Permission Denied
+//                    Toast.makeText(MainActivity.this, "WRITE_CONTACTS Denied", Toast.LENGTH_SHORT)
+//                            .show();
+//                }
+//                break;
+//            default:
+//                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+//        }
+//    }
+
     private void launch(AndroidApplicationConfiguration config)
     {
         getDefaultTracker();
-        initialize(new PixelDungeon(new PDPlatformSupport<>("1.0.3", "Documents/pixeldungeon.tc/saves/", new AndroidInputProcessor(this))), config);
+        initialize(new PixelDungeon(new PDPlatformSupport<>("1.0.3", "pdtc/", new AndroidInputProcessor(this))), config);
     }
 
 
@@ -104,8 +125,10 @@ public class AndroidLauncher extends AndroidApplication
 //    }
 
 
-    synchronized public Tracker getDefaultTracker() {
-        if (mTracker == null) {
+    synchronized public Tracker getDefaultTracker()
+    {
+        if (mTracker == null)
+        {
             GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
             // To enable debug logging use: adb shell setprop log.tag.GAv4 DEBUG
             mTracker = analytics.newTracker(R.xml.global_tracker);

@@ -18,6 +18,7 @@
 package com.watabou.pixeldungeon.scenes;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Camera;
@@ -145,10 +146,11 @@ public class InterlevelScene extends PixelScene {
 					
 					error = ERR_FILE_NOT_FOUND;
 					
-				} catch (Exception e ) {
-					
+				}
+				catch (IOException e ) {
+
 					error = ERR_GENERIC;
-					
+
 				}
 				
 				if (phase == Phase.STATIC && error == null) {
@@ -204,7 +206,7 @@ public class InterlevelScene extends PixelScene {
 		}
 	}
 	
-	private void descend() throws Exception {
+	private void descend() throws IOException{
 		
 		Actor.fixTime();
 		if (Dungeon.hero == null) {
@@ -228,7 +230,7 @@ public class InterlevelScene extends PixelScene {
 		Dungeon.switchLevel( level, level.entrance );
 	}
 	
-	private void fall() throws Exception {
+	private void fall() throws IOException {
 		
 		Actor.fixTime();
 		Dungeon.saveLevel();
@@ -243,7 +245,7 @@ public class InterlevelScene extends PixelScene {
 		Dungeon.switchLevel( level, fallIntoPit ? level.pitCell() : level.randomRespawnCell() );
 	}
 	
-	private void ascend() throws Exception {
+	private void ascend() throws IOException {
 		Actor.fixTime();
 		
 		Dungeon.saveLevel();
@@ -252,7 +254,7 @@ public class InterlevelScene extends PixelScene {
 		Dungeon.switchLevel( level, level.exit );
 	}
 	
-	private void returnTo() throws Exception {
+	private void returnTo() throws IOException {
 		
 		Actor.fixTime();
 		
@@ -262,7 +264,7 @@ public class InterlevelScene extends PixelScene {
 		Dungeon.switchLevel( level, Level.resizingNeeded ? level.adjustPos( returnPos ) : returnPos );
 	}
 	
-	private void restore() throws Exception {
+	private void restore() throws IOException {
 		
 		Actor.fixTime();
 		
@@ -278,7 +280,7 @@ public class InterlevelScene extends PixelScene {
 		}
 	}
 	
-	private void resurrect() throws Exception {
+	private void resurrect() throws IOException {
 		
 		Actor.fixTime(); 
 		

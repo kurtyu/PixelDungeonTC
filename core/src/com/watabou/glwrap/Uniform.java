@@ -69,6 +69,10 @@ public class Uniform {
 	}
 	
 	public void valueM4( float[] value ) {
+//		if(value == null)
+//		{
+//			return;
+//		}
 		buf.rewind();
 		buf.put(value);
 		buf.flip();
